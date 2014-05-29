@@ -1,3 +1,3 @@
-*lrs-bin 
+#lrs-bin 
 
-handy things
+dammit where did i put that
