@@ -20,7 +20,7 @@ markdown basics [link](https://help.github.com/articles/markdown-basics)
 github flavored markdown [link](https://help.github.com/articles/github-flavored-markdown)
 
 python highlighting:
-```
+```python
 ```python
 import python-thing
 \```
