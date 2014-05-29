@@ -15,8 +15,14 @@ response.close()
 handy cheetsheet [pdf](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 
 #####github flavored markdown
-markdown basics [link]()
-github flavored markdown [link]()
+markdown basics [link](https://help.github.com/articles/markdown-basics)
+
+github flavored markdown [link](https://help.github.com/articles/github-flavored-markdown)
+
+python highlighting:
+    \```python
+    import python-thing
+    \```
 
 
 #####nice little soup --> pandas example
