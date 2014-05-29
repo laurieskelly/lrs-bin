@@ -21,9 +21,9 @@ github flavored markdown [link](https://help.github.com/articles/github-flavored
 
 python highlighting:
 ```
-\`\`\`python
+```python
 import python-thing
-\`\`\`
+```
 ```
 
 #####nice little soup --> pandas example
