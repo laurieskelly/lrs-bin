@@ -23,7 +23,7 @@ python highlighting:
 ```
 ```python
 import python-thing
-```
+\```
 this is meta.
 ```
 
