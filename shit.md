@@ -20,10 +20,11 @@ markdown basics [link](https://help.github.com/articles/markdown-basics)
 github flavored markdown [link](https://help.github.com/articles/github-flavored-markdown)
 
 python highlighting:
-    \```python
-    import python-thing
-    \```
-
+```
+\`\`\`python
+import python-thing
+\`\`\`
+```
 
 #####nice little soup --> pandas example
 from this [stackoverflow](http://stackoverflow.com/questions/14487526/turning-beautifulsoup-output-into-matrix) answer
