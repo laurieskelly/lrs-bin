@@ -19,6 +19,22 @@ markdown basics [link]()
 github flavored markdown [link]()
 
 
+#####nice little soup --> pandas example
+from this [stackoverflow](http://stackoverflow.com/questions/14487526/turning-beautifulsoup-output-into-matrix) answer
+```
+import pandas as pd
+
+table  = soup.find('table', attrs={'class': 'sortable statsb'})
+header = [th.text for th in table.find('thead').select('th')]
+header[:2] = ['',' ']
+body   = [[td.text for td in row.select('td')]
+             for row in table.findAll('tr', attrs = {"onmouseover":"hl(this)"})]
+cols   =  zip(*body)
+tbl_d  = {name:col for name, col in zip(header,cols)}
+
+print pd.DataFrame(tbl_d, columns = header)
+```
+
 #####ipython notebook keyboard shortcuts
 from [ipython notebook docs](http://ipython.org/ipython-doc/rel-1.1.0/interactive/notebook.html)
 
