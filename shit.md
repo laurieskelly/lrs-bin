@@ -19,13 +19,10 @@ markdown basics [link](https://help.github.com/articles/markdown-basics)
 
 github flavored markdown [link](https://help.github.com/articles/github-flavored-markdown)
 
-python highlighting:
-```python
-```python
-import python-thing
-\```
-this is meta.
-```
+*python highlighting*: start code block with
+
+    ```python
+
 
 #####nice little soup --> pandas example
 from this [stackoverflow](http://stackoverflow.com/questions/14487526/turning-beautifulsoup-output-into-matrix) answer
