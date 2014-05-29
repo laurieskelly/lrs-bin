@@ -4,7 +4,7 @@
 \#!/usr/bin/env python 
 
 #####urllib2
-```
+```python
 import urllib2
 response = urllib2.urlopen("http://www.something.com")
 html = response.read()
