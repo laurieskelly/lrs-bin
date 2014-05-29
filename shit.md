@@ -21,7 +21,7 @@ github flavored markdown [link]()
 
 #####nice little soup --> pandas example
 from this [stackoverflow](http://stackoverflow.com/questions/14487526/turning-beautifulsoup-output-into-matrix) answer
-```
+```python
 import pandas as pd
 
 table  = soup.find('table', attrs={'class': 'sortable statsb'})
