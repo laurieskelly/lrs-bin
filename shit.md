@@ -22,7 +22,7 @@ github flavored markdown [link]()
 #####ipython notebook keyboard shortcuts
 from [ipython notebook docs](http://ipython.org/ipython-doc/rel-1.1.0/interactive/notebook.html)
 
-<table border="1" class="docutils">
+<table border="1" class="docutils" style="width:auto">
 <colgroup>
 <col width="32%"></col>
 <col width="68%"></col>
