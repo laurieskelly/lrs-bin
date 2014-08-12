@@ -1,5 +1,8 @@
 #handy shit
 
+#####run the simple http server
+python -m SimpleHTTPServer [port=8000]
+
 #####make the python script executable
 \#!/usr/bin/env python 
 
@@ -15,16 +18,14 @@ response.close()
 handy cheetsheet [pdf](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 
 #####github flavored markdown
-markdown basics [link](https://help.github.com/articles/markdown-basics)
+markdown basics [link](https://help.github.com/articles/markdown-basics)  /  github flavored markdown [link](https://help.github.com/articles/github-flavored-markdown)
 
-github flavored markdown [link](https://help.github.com/articles/github-flavored-markdown)
-
-*python highlighting*: start code block with
+*python syntax highlighting*: start code block with
 
     ```python
 
 
-#####nice little soup --> pandas example
+#####handy soup --> pandas example
 from this [stackoverflow](http://stackoverflow.com/questions/14487526/turning-beautifulsoup-output-into-matrix) answer
 ```python
 import pandas as pd
