@@ -1,2 +1,0 @@
-#handy shit for ipython
-
