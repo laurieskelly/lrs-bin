@@ -1,3 +1,5 @@
+##this nonsense is a letter to the editor that appears on mcsweeneys.net, [here](http://www.mcsweeneys.net/articles/letters-from-2011)
+
 <p>Date: Thursday, 27 Oct 2011<br>
 From: L. Skelly<br>
 Subject: What do I do with this?</p>
