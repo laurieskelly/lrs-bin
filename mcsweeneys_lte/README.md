@@ -1,6 +1,5 @@
 ##this nonsense 
-#####is a letter to the editor that appeared on mcsweeneys.net in 2011.  
-I reproduced it here because there is no way to link directly to the original [here](http://www.mcsweeneys.net/articles/letters-from-2011) without requiring people to CTRL-F for my name. 
+#####is a letter to the editor that appeared on mcsweeneys.net in 2011. I reproduced it here because there is no way to link directly to the original [here](http://www.mcsweeneys.net/articles/letters-from-2011) without requiring people to CTRL-F for my name. 
 
 <p>Date: Thursday, 27 Oct 2011<br>
 From: L. Skelly<br>
