@@ -41,5 +41,7 @@ tbl_d  = {name:col for name, col in zip(header,cols)}
 print pd.DataFrame(tbl_d, columns = header)
 ```
 
-#####ipython notebook keyboard shortcuts ```[esc]-h
+#####ipython notebook keyboard shortcuts 
+```[esc]-h
+
 from [ipython notebook docs](http://ipython.org/ipython-doc/rel-1.1.0/interactive/notebook.html)
