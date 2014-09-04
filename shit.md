@@ -42,6 +42,5 @@ print pd.DataFrame(tbl_d, columns = header)
 ```
 
 #####ipython notebook keyboard shortcuts 
-```[esc]-h
-
+     [esc]-h
 from [ipython notebook docs](http://ipython.org/ipython-doc/rel-1.1.0/interactive/notebook.html)
