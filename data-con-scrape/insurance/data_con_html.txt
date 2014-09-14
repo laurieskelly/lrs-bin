@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>
+Schedule | Boston Data-Con 2014</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://data-con.org/xmlrpc.php" />
+<!--[if lt IE 9]>
+	<script src="http://data-con.org/wp-content/themes/interface/js/html5.js"></script>
+	<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Boston Data-Con 2014 &raquo; Feed" href="http://data-con.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Boston Data-Con 2014 &raquo; Comments Feed" href="http://data-con.org/comments/feed/" />
+<link rel='stylesheet' id='jquery-ui-css'  href='http://data-con.org/wp-content/plugins/contact-form-builder/css/jquery-ui-1.10.3.custom.css?ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact_form_maker_frontend-css'  href='http://data-con.org/wp-content/plugins/contact-form-builder/css/contact_form_maker_frontend.css?ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='interface_style-css'  href='http://data-con.org/wp-content/themes/interface/style.css?ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='interface-responsive-css'  href='http://data-con.org/wp-content/themes/interface/css/responsive.css?ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='google_fonts-css'  href='http://fonts.googleapis.com/css?family=PT+Sans%3A400%2C700italic%2C700%2C400italic&#038;ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='http://data-con.org/wp-content/tablepress-combined.min.css?ver=295' type='text/css' media='all' />
+<script type='text/javascript' src='http://data-con.org/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://data-con.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://maps.google.com/maps/api/js?sensor=false&#038;ver=3.9.2'></script>
+<script type='text/javascript' src='http://data-con.org/wp-content/plugins/contact-form-builder/js/if_gmap_front_end.js?ver=3.9.2'></script>
+<script type='text/javascript' src='http://data-con.org/wp-content/plugins/contact-form-builder/js/cfm_main_front_end.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://data-con.org/wp-content/themes/interface/js/backtotop.js?ver=3.9.2'></script>
+<script type='text/javascript' src='http://data-con.org/wp-content/themes/interface/js/scripts.js?ver=3.9.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://data-con.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://data-con.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Invitation to Present' href='http://data-con.org/invitation-to-present/' />
+<link rel='next' title='iPython Tutorial &#8211; Imran Malek' href='http://data-con.org/ipython/' />
+<meta name="generator" content="WordPress 3.9.2" />
+<link rel='canonical' href='http://data-con.org/schedule/' />
+<link rel='shortlink' href='http://data-con.org/?p=253' />
+</head>
+
+<body class="page page-id-253 page-template-default full-width-template narrow-layout">
+<div class="wrapper">
+<header id="branding" >
+  <div class="social-profiles clearfix">
+					<ul>
+				</ul>
+				</div><!-- .social-profiles --><a href="http://data-con.org/"><img src="http://data-con.org/wp-content/uploads/2014/08/bdc-logo-0827.png" class="header-image" width="1500" height="333" alt="Boston Data-Con 2014"> </a>
+<div class="hgroup-wrap">
+  <div class="container clearfix">
+    <section id="site-logo" class="clearfix">
+            <h1 id="site-title"> <a href="http://data-con.org/" title="Boston Data-Con 2014" rel="home">
+        Boston Data-Con 2014        </a> </h1>
+      <h2 id="site-description">
+              </h2>
+          </section>
+    <!-- #site-logo -->
+    <button class="menu-toggle">Responsive Menu</button>
+    <section class="hgroup-right">
+      <nav id="access" class="clearfix"><ul class="nav-menu"><li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="http://data-con.org/register/">Register</a></li>
+<li id="menu-item-815" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-253 current_page_item menu-item-815"><a href="http://data-con.org/schedule/">Schedule</a></li>
+<li id="menu-item-127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-127"><a href="http://data-con.org/directions/">Directions</a></li>
+<li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="http://data-con.org/microsoft-nerd/">Floorplan</a></li>
+<li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134"><a href="http://data-con.org/contact/">Contact</a></li>
+</ul></nav><!-- #access -->      <div class="search-toggle"></div>
+      <!-- .search-toggle -->
+      <div id="search-box" class="hide">
+        
+<form action="http://data-con.org/" method="get" class="searchform clearfix">
+  <label class="assistive-text">
+    Search  </label>
+  <input type="search" placeholder="Search" class="s field" name="s">
+  <input type="submit" value="Search" class="search-submit">
+</form>
+<!-- .search-form -->
+        <span class="arrow"></span> </div>
+      <!-- #search-box --> 
+    </section>
+    <!-- .hgroup-right --> 
+  </div>
+  <!-- .container --> 
+</div>
+<!-- .hgroup-wrap -->
+
+<div class="page-title-wrap">
+  <div class="container clearfix">
+        <h1 class="page-title">Schedule</h1>
+    <!-- .page-title --> 
+  </div>
+</div>
+</header>
+<div id="main">
+<div class="container clearfix">
+<div id="content"><section id="post-253" class="post-253 page type-page status-publish hentry">
+  <article>
+                <div class="entry-content clearfix">
+      <h3 style="text-align: center;"><strong>OVERVIEW OF SESSIONS</strong></h3>
+<h4>The schedule is primarily organized by programming languages and themes.  Traditionally, we&#8217;ve had separate R, Python, or Hadoop events; however this year we are having them all at one event.  Some topics, such as Data Engineering or Data Visualization, span several languages, and as such we believe it will be beneficial for folks of different programming language background to see what is possible on different platforms.   Albeit, all that said, R is more on Saturday, and Python on Sunday as we realize folks often are interested in one or the other.</h4>
+<p>&nbsp;</p>
+<h4>
+<table id="tablepress-5" class="tablepress tablepress-id-5">
+<tbody>
+<tr class="row-1">
+	<td class="column-1"><strong><center>Theme</center></strong></td><td class="column-2"><strong><center>R</center></strong></td><td class="column-3"><strong><center>Python</center></strong></td><td class="column-4"><strong><center>Big Data</center></strong></td>
+</tr>
+<tr class="row-2">
+	<td class="column-1">Beginner Workshops</td><td class="column-2">Beginner Workshop</td><td class="column-3">Beginner Workshop</td><td class="column-4"></td>
+</tr>
+<tr class="row-3">
+	<td class="column-1">Machine Learning &amp; Big Data</td><td class="column-2">Machine Learning and R</td><td class="column-3">ML, Python and Big Data</td><td class="column-4">Hadoop, MS Azure</td>
+</tr>
+<tr class="row-4">
+	<td class="column-1">Data Science &amp; Engineering</td><td class="column-2">Data Science &amp; Engineering</td><td class="column-3">Data Science &amp; Engineering</td><td class="column-4">More Hadoop, Hive, EMC, AWS</td>
+</tr>
+<tr class="row-5">
+	<td class="column-1">DataViz and Interactive Web</td><td class="column-2">Interactive DataViz &amp; R</td><td class="column-3">Interactive DataViz &amp; Python</td><td class="column-4"></td>
+</tr>
+<tr class="row-6">
+	<td class="column-1">Text Analytics</td><td class="column-2">Twitter, APIs, and Text Mining</td><td class="column-3"></td><td class="column-4">Apache SOLR,  <br />
+Locality Sensitive Hashing</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-5 from cache --></h4>
+<p>&nbsp;</p>
+<h3 style="text-align: center;"><strong>OVERVIEW OF REGISTRATION</strong></h3>
+<h4>Here is a condensed schedule that mirrors the registration for the event; i.e. Fri PM (6-9), Sat AM (9-12), Sat PM (1-4), Sun AM (9-12), and Sun PM (1-4).  Sessions, such as <span style="background-color: #cccccc;"><span style="color: black;">DataViz or Text Analytics</span></span>, have talks covering different software and approaches. Since the registration is by day/time you can attend talks in either session.</h4>
+<p>
+<table id="tablepress-35" class="tablepress tablepress-id-35">
+<thead>
+<tr class="row-1">
+	<th class="column-1"><div>&nbsp;</div></th><th class="column-2"><div>&nbsp;</div></th><th class="column-3"><div>&nbsp;</div></th><th class="column-4"><div>&nbsp;</div></th><th class="column-5"><div>&nbsp;</div></th><th class="column-6"><div>&nbsp;</div></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-2">
+	<td class="column-1"><strong><center>FRI</center></strong></td><td class="column-2"><strong>PM</strong></td><td class="column-3"></td><td class="column-4">R Beginner Workshop</td><td class="column-5"></td><td class="column-6"></td>
+</tr>
+<tr class="row-3">
+	<td class="column-1"><strong><center>SAT</center></strong></td><td class="column-2"><strong>AM</strong></td><td class="column-3"></td><td class="column-4">Data Science &amp; Engineering</td><td class="column-5"></td><td class="column-6">Text Analytics and Big Data</td>
+</tr>
+<tr class="row-4">
+	<td class="column-1"><strong><center>SAT</center></strong></td><td class="column-2"><strong>PM</strong></td><td class="column-3"></td><td class="column-4">Data Visualization</td><td class="column-5"></td><td class="column-6">Data Science &amp; Engineering</td>
+</tr>
+<tr class="row-5">
+	<td class="column-1"><strong><center>SUN</center></strong></td><td class="column-2"><strong>AM</strong></td><td class="column-3"></td><td class="column-4">Beginner Python</td><td class="column-5"></td><td class="column-6">Big Data, R, and Parallel Computing</td>
+</tr>
+<tr class="row-6">
+	<td class="column-1"><strong><center>SUN</center></strong></td><td class="column-2"><strong>PM</strong></td><td class="column-3"></td><td class="column-4">PyData + New Python Libraries!</td><td class="column-5"></td><td class="column-6">Python, Machine Learning, &amp; Big Data</td>
+</tr>
+<tr class="row-7">
+	<td class="column-1"><strong><center>SUN</center></strong></td><td class="column-2"><strong>PM2</strong></td><td class="column-3"></td><td class="column-4">R Beginner Workshop</td><td class="column-5"></td><td class="column-6">More PyData </td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-35 from cache --></p>
+<p>&nbsp;</p>
+<h3 style="text-align: center;"><strong>EXPANDED SCHEDULE</strong></h3>
+<h4>Below is an expanded schedule with the sessions AND talks.   Most talks have links to a speaker bio page that includes a talk description. Please note that there are talks with software packages beyond R and Python, such as <span style="background-color: #63c6ae;"><span style="color: black;"> MatLab, SQL, D3, and others</span></span>.   Also, a couple talks are more on <span style="background-color: #ff6666;"><span style="color: black;"> Design Principles </span></span>  than on coding. These focus on thinking through different design options whether for a data science project or data visualization.</h4>
+<p>
+<table id="tablepress-4" class="tablepress tablepress-id-4">
+<thead>
+<tr class="row-1">
+	<th class="column-1"><div>&nbsp;</div></th><th class="column-2"><div>When</div></th><th class="column-3"><div>&nbsp;</div></th><th class="column-4"><div>&nbsp;</div></th><th class="column-5"><div><center>1st Floor</center></div></th><th class="column-6"><div>&nbsp;</div></th><th class="column-7"><div><center>10th / 11th Floor</center></div></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-2">
+	<td class="column-1"></td><td class="column-2"><strong>FRIDAY</strong></td><td class="column-3"></td><td class="column-4"></td><td class="column-5">R Beginner Workshop</td><td class="column-6"></td><td class="column-7"></td>
+</tr>
+<tr class="row-3">
+	<td class="column-1"></td><td class="column-2">6:00 - 8:45</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/r-bootcamp/" target="_blank">R Beginner Bootcamp - Joe Kambourakis and John Verostek</a></td><td class="column-6"></td><td class="column-7"></td>
+</tr>
+<tr class="row-4">
+	<td class="column-1">.</td><td class="column-2"> <br />
+ <br />
+ <br />
+</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"></td><td class="column-6"></td><td class="column-7"></td>
+</tr>
+<tr class="row-5">
+	<td class="column-1"></td><td class="column-2"><strong>SATURDAY</strong></td><td class="column-3"></td><td class="column-4"></td><td class="column-5">Data Science &amp; Engineering</td><td class="column-6"></td><td class="column-7">Twitter, Text Analytics and Big Data</td>
+</tr>
+<tr class="row-6">
+	<td class="column-1"></td><td class="column-2"> 9:00 - 10:20</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/david-weisman/" target="_blank">Introduction to the Data Science Method  - David Weisman</a></td><td class="column-6"></td><td class="column-7"><a href="http://data-con.org/tanya-cashorali/" target="_blank">Using Twitter to Analyze Switching Across Cellphone Carriers  - Tanya Cashorali</a> <br />
+<br />
+<a href="http://data-con.org/herb-susmann/" target="_blank">Topic Modelling Using R - Herb Susmann</a></td>
+</tr>
+<tr class="row-7">
+	<td class="column-1"></td><td class="column-2">10:20 - 10:30</td><td class="column-3"></td><td class="column-4"></td><td class="column-5">Break</td><td class="column-6"></td><td class="column-7">Break</td>
+</tr>
+<tr class="row-8">
+	<td class="column-1"></td><td class="column-2">10:30 - 11:00<br />
+<br />
+<br />
+11:00 -12:00</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/dag-holmboe/" target="_blank">Combining R Libraries into Automated Workflows - Dag Holmboe</a><br />
+<br />
+<a href="http://data-con.org/julia-pilowsky/" target="_blank">General Linearized Mixed Models (GLMMs) in R  - Julia Pilowsky<br />
+</a></td><td class="column-6"></td><td class="column-7"><a href="http://data-con.org/david-troiano/" target="_blank">Optimizing Multilingual Search Using Solr- David Troiano </a> <br />
+<br />
+<a href="http://data-con.org/j-singh-and-teresa-brooks/" target="_blank">Mining of Massive Datasets Using Locality Sensitive Hashing (LSH) - J Singh and Teresa Brooks</a></td>
+</tr>
+<tr class="row-9">
+	<td class="column-1"></td><td class="column-2"> <br />
+12:00 - 1:00<br />
+  <br />
+<br />
+ </td><td class="column-3"></td><td class="column-4"></td><td class="column-5"> <br />
+Lunch<br />
+  <br />
+</td><td class="column-6"></td><td class="column-7"> <br />
+Lunch  <br />
+  <br />
+</td>
+</tr>
+<tr class="row-10">
+	<td class="column-1"></td><td class="column-2"><strong>SATURDAY</strong></td><td class="column-3"></td><td class="column-4"></td><td class="column-5">Data Visualization</td><td class="column-6"></td><td class="column-7">Data Science &amp; Engineering</td>
+</tr>
+<tr class="row-11">
+	<td class="column-1"></td><td class="column-2">1:00 - 1:50</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/angela-bassa/" target="_blank">DataViz Design Principles  - Angela Bassa</a></td><td class="column-6"></td><td class="column-7"><a href="http://data-con.org/jean-loup-loyer/" target="_blank">Massive Feature Selection Using Supercomputing in R - Jean-Loup Loyer</a></td>
+</tr>
+<tr class="row-12">
+	<td class="column-1"></td><td class="column-2">1:50 - 2:40</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/ian-stokes-rees/" target="_blank">Python DataViz Tour - Ian Stokes-Rees</a></td><td class="column-6"></td><td class="column-7"><a href="http://data-con.org/rajarshi-guha/ " target="_blank">Robots, Small Molecules &amp; R - Ingredients for Exploring and Predicting Biological Effects - Rajarshi Guha</a></td>
+</tr>
+<tr class="row-13">
+	<td class="column-1"></td><td class="column-2">2:40 - 3:00</td><td class="column-3"></td><td class="column-4"></td><td class="column-5">Break</td><td class="column-6"></td><td class="column-7">Break</td>
+</tr>
+<tr class="row-14">
+	<td class="column-1"></td><td class="column-2">3:00 - 3:50</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/abhinav-sarapure/ " target="_blank">Interactive DataViz with R:  ggvis, rCharts, Shiny - Abhinav Sarapure</a> </td><td class="column-6"></td><td class="column-7"><a href=" http://data-con.org/sri-krishnamurthy/" target="_blank">High Dimensionality in Large Datasets - Sri Krishnamurthy</a></td>
+</tr>
+<tr class="row-15">
+	<td class="column-1"></td><td class="column-2">3:50 - 4:40</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/mike-barry-and-brian-card/" target="_blank">A Case Study Visualizing Boston's Subway System Using D3 and other Open Source tools  - Mike Barry and Brian Card</a></td><td class="column-6"></td><td class="column-7"><a href="http://data-con.org/edmund-jorgensen-and-matt-papi/" target="_blank">Principles of Data Engineering- Edmund Jorgenson and Matt Papi</a><br />
+<br />
+<a href=" http://data-con.org/dan-milstein/" target="_blank">Baseball and Data Engineering using Statistics, R &amp; Python - Dan Milstein</a></td>
+</tr>
+<tr class="row-16">
+	<td class="column-1"></td><td class="column-2"> <br />
+ <br />
+ </td><td class="column-3"></td><td class="column-4"></td><td class="column-5"></td><td class="column-6"></td><td class="column-7"></td>
+</tr>
+<tr class="row-17">
+	<td class="column-1"></td><td class="column-2"><strong>SUNDAY</strong></td><td class="column-3"></td><td class="column-4"></td><td class="column-5">Beginner Python</td><td class="column-6"></td><td class="column-7">Big Data Tools and Parallel Computing</td>
+</tr>
+<tr class="row-18">
+	<td class="column-1"></td><td class="column-2">9:00 - 9:50</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/imran-malek/" target="_blank">iPython Tutorial - Imran Malek</a><br />
+</td><td class="column-6"></td><td class="column-7"><a href="http://data-con.org/digitaslbi/" target="_blank">Creating Custom Big Data Tools including Models, Hadoop Clusters, and DataViz - DigitasLBI</a><br />
+<br />
+<a href="http://data-con.org/wes-reing/" target="_blank">Introduction to Massively Parallel Databases  - Wes Reing</a></td>
+</tr>
+<tr class="row-19">
+	<td class="column-1"></td><td class="column-2">10:00 - 10:50</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/allen-downey/" target="_blank">Regression Analysis with Python, Pandas, and StatsModels - Allen Downey</a></td><td class="column-6"></td><td class="column-7">R for Analyzing Big Expression Data Parallel Computing - Yuefeng Lu<br />
+<br />
+<a href="http://data-con.org/steve-belcher/" target="_blank"> Scaling R with ScaleR Packages - Steve Belcher	</a></td>
+</tr>
+<tr class="row-20">
+	<td class="column-1"></td><td class="column-2">11:00 - 11:50</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/mali-akmanalp/" target="_blank">More Pandas! - Mali Akmanalp</a><br />
+<br />
+<a href="http://data-con.org/justin-sun/" target="_blank">Python Data Mining Using Orange Canvas - Justin Sun</a><br />
+<br />
+<a href="http://data-con.org/will-sutton/" target="_blank">Open-Source Data-Analysis for Bio-tech - Will Sutton</a></td><td class="column-6"></td><td class="column-7"><a href="http://data-con.org/muralikumar-venkat/" target="_blank">Introduction to Hive with Case Study on Storing and Querying Protobuf Logs in Hive - Muralikumar Venkat</a><br />
+<br />
+<a href="http://data-con.org/nick-lim/" target="_blank">Gamification and Big Data - Nick Lim</a></td>
+</tr>
+<tr class="row-21">
+	<td class="column-1"></td><td class="column-2"> <br />
+12:00 - 1:00<br />
+       <br />
+</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/patrik-lundblad/ " target="_blank">Lunchtime Talk:  Visualizations for Exploring  Data - Pratik Lundblad</a><br />
+ </td><td class="column-6"></td><td class="column-7"> <br />
+Lunch<br />
+   <br />
+</td>
+</tr>
+<tr class="row-22">
+	<td class="column-1"></td><td class="column-2"><strong>SUNDAY</strong></td><td class="column-3"></td><td class="column-4"></td><td class="column-5">More PyData! + New Python Libraries</td><td class="column-6"></td><td class="column-7">Python, Machine Learning, &amp; Big Data</td>
+</tr>
+<tr class="row-23">
+	<td class="column-1"></td><td class="column-2">1:00 - 1:50</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/chris-beaumont/" target="_blank">Glue: a hackable user interface for multidimensional data exploration  - Chris Beaumont</a><br />
+<br />
+<br />
+</td><td class="column-6"></td><td class="column-7"><a href="http://data-con.org/pete-martin/" target="_blank">Data Science, YouTube, &amp; Media Disruption - Pete Martin of Pixability</a><br />
+<br />
+<a href="http://data-con.org/roope-astala/" target="_blank">Building Predictive Models in Cloud using Microsoft Azure Machine Learning  - Roope Astala</a></td>
+</tr>
+<tr class="row-24">
+	<td class="column-1"></td><td class="column-2">1:50 - 2:40</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/mike-bell/" target="_blank">Statistical inference in Python the NIFTY way  - Mike Bell</a> <br />
+<br />
+<a href="http://data-con.org/greg-lipstein-and-peter-bull/" target="_blank"> DrivenData.org:   Python-based Site for Data Science Competitions - Greg Lipstein &amp; Peter Bull</a></td><td class="column-6"></td><td class="column-7"><a href="http://data-con.org/michael-els/" target="_blank">Using Python's Machine Learning and Dynamic Control Libraries for Online Advertisement Analysis - Michael Els</a> <br />
+<br />
+</td>
+</tr>
+<tr class="row-25">
+	<td class="column-1"></td><td class="column-2">2:40 - 3:00</td><td class="column-3"></td><td class="column-4"></td><td class="column-5">Break</td><td class="column-6"></td><td class="column-7">Break</td>
+</tr>
+<tr class="row-26">
+	<td class="column-1"></td><td class="column-2"><strong>SUNDAY</strong></td><td class="column-3"></td><td class="column-4"></td><td class="column-5">R Bootcamp</td><td class="column-6"></td><td class="column-7">More PyData! </td>
+</tr>
+<tr class="row-27">
+	<td class="column-1"></td><td class="column-2">3:00 - 3:50</td><td class="column-3"></td><td class="column-4"></td><td class="column-5"><a href="http://data-con.org/r-bootcamp/" target="_blank">R Beginner Bootcamp - Joe Kambourakis and John Verostek</a></td><td class="column-6"></td><td class="column-7"><a href="http://data-con.org/stuart-layton/" target="_blank">IP-Reputation Scoring System in Python and Hadoop  - Stuart Layton</a></td>
+</tr>
+<tr class="row-28">
+	<td class="column-1"></td><td class="column-2">3:50 - 4:40</td><td class="column-3"></td><td class="column-4"></td><td class="column-5">R Bootcamp</td><td class="column-6"></td><td class="column-7"><a href="http://data-con.org/laurie-skelly/" target="_blank">Web Scraping Using Python's Beautiful Soup and Selenium - Laurie Skelly</a><br />
+</td>
+</tr>
+<tr class="row-29">
+	<td class="column-1"></td><td class="column-2">4:40 - 5:30</td><td class="column-3"></td><td class="column-4"></td><td class="column-5">R Bootcamp</td><td class="column-6"></td><td class="column-7"></td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-4 from cache --></p>
+<h3 style="text-align: center;">Many Thanks to Our Sponsors</h3>
+<p><a href="http://data-con.org/wp-content/uploads/2014/09/sponsors-0907.png"><img src="http://data-con.org/wp-content/uploads/2014/09/sponsors-0907.png" alt="sponsors-0907" width="1081" height="260" class="alignnone size-full wp-image-1242" /></a></p>
+          </div>
+    <!-- entry-content clearfix-->
+    
+      </article>
+</section>
+</div><!-- #content --></div>
+<!-- .container -->
+</div>
+<!-- #main -->
+
+
+<footer id="colophon" class="clearfix">
+  
+
+	<div id="site-generator">
+				<div class="container clearfix"><div class="social-profiles clearfix">
+					<ul>
+				</ul>
+				</div><!-- .social-profiles --><div class="copyright">Copyright &copy; 2014 <a href="http://data-con.org/" title="Boston Data-Con 2014" ><span>Boston Data-Con 2014</span></a> Theme by: <a href="http://themehorse.com" target="_blank" title="Theme Horse" ><span>Theme Horse</span></a> Powered by: <a href="http://wordpress.org" target="_blank" title="WordPress"><span>WordPress</span></a> </div><!-- .copyright --></div><!-- .container -->	
+			</div><!-- #site-generator --><div class="back-to-top"><a href="#branding"> </a></div></footer>
+</div>
+<!-- .wrapper -->
+
+<script type='text/javascript' src='http://data-con.org/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://data-con.org/wp-includes/js/jquery/ui/jquery.ui.effect.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://data-con.org/wp-includes/js/jquery/ui/jquery.ui.effect-shake.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201437'></script>
+</body></html>
