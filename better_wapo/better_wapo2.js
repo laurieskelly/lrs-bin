@@ -72,10 +72,10 @@ $(document).ready(function(){
 
     sd = staffing_data.filter(function(d){
      	    return d.blackpct>5 
-	    && d.totpop>100000
+	    && d.totpop>700000
 	    && d.city != 'Fountainebleau'})
     sd.sort(function(a,b){
-	if (a.balance < b.balance ) {
+	if (a.black_diffpct < b.black_diffpct ) {
 	    return -1 }
 	    else { return 1 }
     })
