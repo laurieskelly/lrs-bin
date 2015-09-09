@@ -4,7 +4,7 @@
 python -m SimpleHTTPServer [port=8000]
 
 #####make the python script executable
-\#!/usr/bin/env python 
+`\#!/usr/bin/env python `
 
 #####urllib2
 ```python
