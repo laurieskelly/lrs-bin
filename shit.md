@@ -1,20 +1,63 @@
 #handy shit
 
-#####run the simple http server
+####[PEP8 whitespace](https://www.python.org/dev/peps/pep-0008/#whitespace-in-expressions-and-statements)
+```python
+Yes: spam(ham[1], {eggs: 2})
+ No: spam( ham[ 1 ], { eggs: 2 } )
+
+Yes: if x == 4: print x, y; x, y = y, x
+ No: if x == 4 : print x , y ; x , y = y , x
+
+Yes: ham[lower:upper]
+Yes: ham[lower+offset : upper+offset]
+Yes: ham[lower + offset : upper + offset]
+ No: ham[lower + offset:upper + offset]
+ 
+Yes: i = i + 1
+ No: i=i+1
+Yes: submitted += 1
+ No: submitted +=1
+Yes: x = x*2 - 1
+ No: x = x * 2 - 1
+Yes: hypot2 = x*x + y*y
+ No: hypot2 = x * x + y * y
+Yes: c = (a+b) * (a-b) 
+ No: c = (a + b) * (a - b)
+
+Yes: 
+def complex(real, imag=0.0):
+    return magic(r=real, i=imag)
+No:
+def complex(real, imag = 0.0):
+    return magic(r = real, i = imag)
+
+```
+
+####run the simple http server
 `python -m SimpleHTTPServer [port=8000]`
 
-#####make the python script executable
+####make the python script executable
 `\#!/usr/bin/env python `
 
-#####urllib2
+####urllib2
 ```python
 import urllib2
+
 response = urllib2.urlopen("http://www.something.com")
 html = response.read()
 response.close()
 ```
 
-#####git, how do I do it?
+####but yeah, just use `requests` tho, laurie of the past, brasephine
+```python
+import requests
+
+r = requests.get("http://www.something.com")
+html = r.contents()
+```
+
+
+####git, how do I do it?
 handy cheetsheet: [pdf](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 
 book I like: [Pro Git](https://progit.org/) by [Scott Chacon & Ben Straub](http://www.dunno.what)
