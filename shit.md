@@ -44,3 +44,10 @@ print pd.DataFrame(tbl_d, columns = header)
 #####ipython notebook keyboard shortcuts 
      [esc]-h
 from [ipython notebook docs](http://ipython.org/ipython-doc/rel-1.1.0/interactive/notebook.html)
+
+###YAML  
+>YAML ain't markup language
+
+- [YAML home (yaml.org)](http://yaml.org/)   
+- [PyYAML documentation](http://pyyaml.org/wiki/PyYAMLDocumentation) 
+- [Syntax preview docs](http://www.yaml.org/spec/1.2/spec.html#Preview)
