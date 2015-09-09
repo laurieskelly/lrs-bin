@@ -1,7 +1,7 @@
 #handy shit
 
 #####run the simple http server
-python -m SimpleHTTPServer [port=8000]
+`python -m SimpleHTTPServer [port=8000]`
 
 #####make the python script executable
 `\#!/usr/bin/env python `
@@ -14,8 +14,9 @@ html = response.read()
 response.close()
 ```
 
-#####git cheatsheet
-handy cheetsheet [pdf](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+#####git, how do I do it?
+handy cheetsheet: [pdf](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+book I like: [Pro Git](https://progit.org/) by [Scott Chacon & Ben Straub](http://www.dunno.what)
 
 #####github flavored markdown
 markdown basics [link](https://help.github.com/articles/markdown-basics)  /  github flavored markdown [link](https://help.github.com/articles/github-flavored-markdown)
