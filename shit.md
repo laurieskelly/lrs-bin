@@ -16,6 +16,7 @@ response.close()
 
 #####git, how do I do it?
 handy cheetsheet: [pdf](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+
 book I like: [Pro Git](https://progit.org/) by [Scott Chacon & Ben Straub](http://www.dunno.what)
 
 #####github flavored markdown
