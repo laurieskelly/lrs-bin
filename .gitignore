@@ -4,3 +4,5 @@
  
 notrack/
 notrack/*
+.ipynb*/*
+.ipynb_checkpoints
