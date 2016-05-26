@@ -62,6 +62,8 @@ handy cheetsheet: [pdf](https://training.github.com/kit/downloads/github-git-che
 
 book I like: [Pro Git](https://progit.org/) by [Scott Chacon & Ben Straub](http://www.dunno.what)
 
+caching your github password (os x): [instructions](https://help.github.com/articles/caching-your-github-password-in-git/)
+
 #####github flavored markdown
 markdown basics [link](https://help.github.com/articles/markdown-basics)  /  github flavored markdown [link](https://help.github.com/articles/github-flavored-markdown)
 
