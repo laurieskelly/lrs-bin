@@ -4,8 +4,7 @@
 
 ### Katie Park
 
-#### session: 
-[**A data analysis of ourselves**](http://srccon.org/sessions/#proposal-318592)
+#### [A data analysis of ourselves](http://srccon.org/sessions/#proposal-318592)
 
 [![](headshots/katie_park.jpg)](https://twitter.com/katiepark)
 
@@ -19,8 +18,7 @@ Code + graphics at @nprviz, previously @postgraphics. Tampa-raised. Guitar/vox @
 
 ###  ☔️ Aaron Williams  ☔️
 
-#### session: 
-[**A data analysis of ourselves**](http://srccon.org/sessions/#proposal-318592)
+#### [A data analysis of ourselves](http://srccon.org/sessions/#proposal-318592)
 
 [![](headshots/aaron_williams.jpg)](https://twitter.com/aboutaaron)
 
@@ -34,8 +32,7 @@ website: [https://www.acwx.net/2015/12/03/ive-changed-a-lot/](https://www.acwx.n
 
 ### Joanna S. Kao
 
-#### session: 
-[**Accessibility in media**](http://srccon.org/sessions/#proposal-318685)
+#### [Accessibility in media](http://srccon.org/sessions/#proposal-318685)
 
 [![](headshots/joanna_kao.jpg)](https://twitter.com/joannaskao)
 
@@ -49,8 +46,7 @@ website: [http://www.joannaskao.com**](http://www.joannaskao.com)
 
 ### Joel Eastwood
 
-#### session: 
-[**Balancing mental health in the newsroom**](http://srccon.org/sessions/#proposal-318365)
+#### [Balancing mental health in the newsroom](http://srccon.org/sessions/#proposal-318365)
 
 [![](headshots/joel_eastwood.jpg)](https://twitter.com/JoelEastwood)
 
@@ -64,8 +60,7 @@ Loitering at the intersection of journalism, code, data and graphics for @WSJ. C
 
 ### Emma Carew Grovum
 
-#### session: 
-[**Balancing mental health in the newsroom**](http://srccon.org/sessions/#proposal-318365)
+#### [Balancing mental health in the newsroom](http://srccon.org/sessions/#proposal-318365)
 
 [![](headshots/emma_carew_grovum.jpg)](https://twitter.com/emmacarew)
 
@@ -79,8 +74,7 @@ Asst. Managing Editor @thedailybeast | cofounder @DiversifyJourn #mediadiversity
 
 ### Brian J. Brennan
 
-#### session: 
-[**Beyond console.log: making the most of your developer too**](http://srccon.org/sessions/#proposal-317448)
+#### [Beyond console.log: making the most of your developer too](http://srccon.org/sessions/#proposal-317448)
 
 [![](headshots/brian_brennan.jpg)](https://twitter.com/brianloveswords)
 
@@ -95,8 +89,7 @@ chief garbage monster @Bocoup; figurehead @brooklyn_js; probably not three cats 
 
 ### Sarah Moughty
 
-#### session: 
-[**Break Down that Wall: Why Editorial and Audience Development Need to Work Together**](http://srccon.org/sessions/#proposal-318639)
+#### [Break Down that Wall: Why Editorial and Audience Development Need to Work Together](http://srccon.org/sessions/#proposal-318639)
 
 [![](headshots/sarah_moughty.png)](https://twitter.com/smoughts)
 
@@ -110,8 +103,7 @@ Managing editor, digital @frontlinepbs. Smoking them all with intellect & savoir
 
 ### Pamela Johnston
 
-#### session: 
-[**Break Down that Wall: Why Editorial and Audience Development Need to Work Together**](http://srccon.org/sessions/#proposal-318639)
+#### [Break Down that Wall: Why Editorial and Audience Development Need to Work Together](http://srccon.org/sessions/#proposal-318639)
 
 [![](headshots/pamjohnston.jpg)](https://twitter.com/PamJohnston)
 
@@ -125,8 +117,7 @@ Sr. director of audience development @FRONTLINEpbs Stay Smart. Watch #FRONTLINEp
 
 ### Thomas Wilburn
 
-#### session: 
-[**Building news apps for humanity**](http://srccon.org/sessions/#proposal-312019)
+#### [Building news apps for humanity](http://srccon.org/sessions/#proposal-312019)
 
 [![](headshots/thomas_wilburn.jpg)](https://twitter.com/thomaswilburn)
 
@@ -140,8 +131,7 @@ Small-batch, artisanal data journalism for @seattletimes. West Coast operations 
 
 ### Kate Schimel
 
-#### session: 
-[**Can We Pair Program The News?**](http://srccon.org/sessions/#proposal-318666)
+#### [Can We Pair Program The News?](http://srccon.org/sessions/#proposal-318666)
 
 [![](headshots/kate_schimel.jpg)](https://twitter.com/kateschimel)
 
@@ -155,8 +145,7 @@ Assistant editor @highcountrynews. I write about education/climate/communities. 
 
 ### Jordan Wirfs-Brock
 
-#### session: 
-[**Can We Pair Program The News?**](http://srccon.org/sessions/#proposal-318666)
+#### [Can We Pair Program The News?](http://srccon.org/sessions/#proposal-318666)
 
 [![](headshots/jordan_wirfsbrock.jpeg)](https://twitter.com/jordanwb)
 
@@ -170,8 +159,7 @@ Data journalist/dataviz geek at @InsideEnergyNow, trail + relay running addict, 
 
 ### Geoff Hing
 
-#### session: 
-[**Data analysis N ways**](http://srccon.org/sessions/#proposal-318397)
+#### [Data analysis N ways](http://srccon.org/sessions/#proposal-318397)
 
 [![](headshots/geoff_hing.jpg)](https://twitter.com/geoffhing)
 
@@ -185,8 +173,7 @@ Midwestern cultural worker and technologist
 
 ### Stefan Wehrmeyer
 
-#### session: 
-[**Data analysis N ways**](http://srccon.org/sessions/#proposal-318397)
+#### [Data analysis N ways](http://srccon.org/sessions/#proposal-318397)
 
 [![](headshots/stefan_wehrmeyer.jpeg)](https://twitter.com/stefanwehrmeyer)
 
@@ -200,8 +187,7 @@ http://Correctiv.org , FragDenStaat.de, OKFN.de
 
 ### Michael Corey
 
-#### session: 
-[**Data sonification piano bar**](http://srccon.org/sessions/#proposal-318330)
+#### [Data sonification piano bar](http://srccon.org/sessions/#proposal-318330)
 
 [![](headshots/michael_corey.jpg)](https://twitter.com/mikejcorey)
 
@@ -215,8 +201,7 @@ Senior News Applications Developer for @Reveal. I love mapping, data journalism 
 
 ### Neena Satija
 
-#### session: 
-[**Data sonification piano bar**](http://srccon.org/sessions/#proposal-318330)
+#### [Data sonification piano bar](http://srccon.org/sessions/#proposal-318330)
 
 [![](headshots/neena_satija.jpg)](https://twitter.com/neenareports)
 
@@ -230,8 +215,7 @@ Investigative radio reporter and producer for @texastribune and @reveal (http://
 
 ### Tara Adiseshan
 
-#### session: 
-[**Designing Participatory Algorithmic Decision-Making Processes**](http://srccon.org/sessions/#proposal-318355)
+#### [Designing Participatory Algorithmic Decision-Making Processes](http://srccon.org/sessions/#proposal-318355)
 
 [![](headshots/tara_adiseshan.jpg)](https://twitter.com/taraadiseshan)
 
@@ -245,8 +229,7 @@ data science + visualization + UX + activism + digital privacy and security. pas
 
 ### Immigrant
 
-#### session: 
-[**Designing Participatory Algorithmic Decision-Making Processes**](http://srccon.org/sessions/#proposal-318355)
+#### [Designing Participatory Algorithmic Decision-Making Processes](http://srccon.org/sessions/#proposal-318355)
 
 [![](headshots/immigrant.jpg)](https://twitter.com/hyper_linda)
 
@@ -262,8 +245,7 @@ Knight-Mozilla fellow 2015. Wannabe MacGyver. Rebel.
 
 ### Josh Laincz
 
-#### session: 
-[**Designing brands at scale**](http://srccon.org/sessions/#proposal-318550)
+#### [Designing brands at scale](http://srccon.org/sessions/#proposal-318550)
 
 [![](headshots/josh_laincz.jpg)](https://twitter.com/zohf)
 
@@ -278,8 +260,7 @@ Principal Designer @voxmediainc.
 
 ### Georgia Cowley
 
-#### session: 
-[**Designing brands at scale**](http://srccon.org/sessions/#proposal-318550)
+#### [Designing brands at scale](http://srccon.org/sessions/#proposal-318550)
 
 [![](headshots/georgia_cowley.jpg)](https://twitter.com/hellogeorgia)
 
@@ -293,8 +274,7 @@ design director @voxmediainc.
 
 ### gboysun
 
-#### session: 
-[**Every day I'm juggling: Managing managers, peer expectations, and your own project ideas**](http://srccon.org/sessions/#proposal-318061)
+#### [Every day I'm juggling: Managing managers, peer expectations, and your own project ideas](http://srccon.org/sessions/#proposal-318061)
 
 [![](headshots/gboysun.jpg)](https://twitter.com/gboysun)
 
@@ -308,8 +288,7 @@ Online developer by day. Wife and mom by morning, day and night.
 
 ### Justin Myers
 
-#### session: 
-[**Every day I'm juggling: Managing managers, peer expectations, and your own project ideas**](http://srccon.org/sessions/#proposal-318061)
+#### [Every day I'm juggling: Managing managers, peer expectations, and your own project ideas](http://srccon.org/sessions/#proposal-318061)
 
 [![](headshots/justin_myers.png)](https://twitter.com/myersjustinc)
 
@@ -323,8 +302,7 @@ Journalist, baker, programmer, crocheter. News automation editor @AP. Knows wher
 
 ### Jason Alcorn
 
-#### session: 
-[**Expanding the Team: Parenthood in the News Business**](http://srccon.org/sessions/#proposal-318303)
+#### [Expanding the Team: Parenthood in the News Business](http://srccon.org/sessions/#proposal-318303)
 
 [![](headshots/jason_alcorn.jpg)](https://twitter.com/jasonalcorn)
 
@@ -338,8 +316,7 @@ consultant to newsrooms, foundations and nonprofits. building an informed citize
 
 ### David Yee
 
-#### session: 
-[**Get you a CMS that can do both: Platforms, the web, and storytelling imperatives**](http://srccon.org/sessions/#proposal-318698)
+#### [Get you a CMS that can do both: Platforms, the web, and storytelling imperatives](http://srccon.org/sessions/#proposal-318698)
 
 [![](headshots/david_yee.jpeg)](https://twitter.com/tangentialism)
 
@@ -367,8 +344,7 @@ Special Projects Editor @FT bringing project management & design thinking into n
 
 ### Darius Kazemi
 
-#### session: 
-[**Giffable Audio and the Social Web**](http://srccon.org/sessions/#proposal-318319)
+#### [Giffable Audio and the Social Web](http://srccon.org/sessions/#proposal-318319)
 
 [![](headshots/darius_kazemi.jpg)](https://twitter.com/tinysubversions)
 
@@ -396,8 +372,7 @@ riot grrl gamedev | creative researcher @The_O_C_R | alumna @nytimes | @slamcity
 
 ### Julia Smith
 
-#### session: 
-[**Give and Receive: Can we strengthen our community through remote mentorship and office hours?**](http://srccon.org/sessions/#proposal-318413)
+#### [Give and Receive: Can we strengthen our community through remote mentorship and office hours?](http://srccon.org/sessions/#proposal-318413)
 
 [![](headshots/julia_smith.jpg)](https://twitter.com/julia67)
 
@@ -411,8 +386,7 @@ news+design+code for @INN, former @OpenNews fellow for @Reveal
 
 ### Kelsey Scherer
 
-#### session: 
-[**How can teams build a consistent culture of documentation?**](http://srccon.org/sessions/#proposal-317439)
+#### [How can teams build a consistent culture of documentation?](http://srccon.org/sessions/#proposal-317439)
 
 [![](headshots/kelsey_scherer.jpg)](https://twitter.com/kelsa_)
 
@@ -426,8 +400,7 @@ senior designer @voxproduct / @voxmediainc
 
 ### Lauren Rabaino
 
-#### session: 
-[**How can teams build a consistent culture of documentation?**](http://srccon.org/sessions/#proposal-317439)
+#### [How can teams build a consistent culture of documentation?](http://srccon.org/sessions/#proposal-317439)
 
 [![](headshots/lauren_rabaino.jpg)](https://twitter.com/laurenrabaino)
 
@@ -441,8 +414,7 @@ director of editorial products at @voxmediainc / @voxproduct. journalism + desig
 
 ### Neil Bedi
 
-#### session: 
-[**How can we help save photojournalism?**](http://srccon.org/sessions/#proposal-318587)
+#### [How can we help save photojournalism?](http://srccon.org/sessions/#proposal-318587)
 
 [![](headshots/neil_bedi.jpeg)](https://twitter.com/_neilbedi)
 
@@ -456,8 +428,7 @@ Developer experimenting with journalism. Former data editor, photo editor and re
 
 ### Ariana Giorgi
 
-#### session: 
-[**How can we peer review our data stories?**](http://srccon.org/sessions/#proposal-316702)
+#### [How can we peer review our data stories?](http://srccon.org/sessions/#proposal-316702)
 
 [![](headshots/ariana_giorgi.jpg)](https://twitter.com/ArianaNGiorgi)
 
@@ -471,8 +442,7 @@ Data reporter/developer for @chrondata. Former graphics intern at @bizweekgraphi
 
 ### Christine Zhang
 
-#### session: 
-[**How can we peer review our data stories?**](http://srccon.org/sessions/#proposal-316702)
+#### [How can we peer review our data stories?](http://srccon.org/sessions/#proposal-316702)
 
 [![](headshots/christine_zhang.jpg)](https://twitter.com/christinezhang)
 
@@ -486,8 +456,7 @@ website: [https://plotswithchristine.wordpress.com/](https://plotswithchristine.
 
 ### Bo Peng
 
-#### session: 
-[**How do we convey technical ideas without dumbing things down?**](http://srccon.org/sessions/#proposal-315684)
+#### [How do we convey technical ideas without dumbing things down?](http://srccon.org/sessions/#proposal-315684)
 
 [![](headshots/bo_peng.jpeg)](https://twitter.com/bo_p)
 
@@ -501,8 +470,7 @@ Partner & data scientist @DsAtweet, former @thisismetis instructor. I think/twee
 
 ### Justin Reese
 
-#### session: 
-[**How to be a guest chef at someone's house party, or, Being a responsible embed provider**](http://srccon.org/sessions/#proposal-317747)
+#### [How to be a guest chef at someone's house party, or, Being a responsible embed provider](http://srccon.org/sessions/#proposal-317747)
 
 [![](headshots/justin_reese.jpg)](https://twitter.com/reefdog)
 
@@ -530,8 +498,7 @@ News developer for @marketplace, @medillschool alum and @habiarts member.
 
 ### Pietro
 
-#### session: 
-[**How to craft compelling stories out of video interviews?**](http://srccon.org/sessions/#proposal-317919)
+#### [How to craft compelling stories out of video interviews?](http://srccon.org/sessions/#proposal-317919)
 
 [![](headshots/pietro.png)](https://twitter.com/pietropassarell)
 
@@ -545,8 +512,7 @@ Developer/Documentary film-maker. 'Video production and software development are
 
 ### Allison McCartney
 
-#### session: 
-[**Illustrating Investigations: Creating compelling visuals for abstract stories**](http://srccon.org/sessions/#proposal-318582)
+#### [Illustrating Investigations: Creating compelling visuals for abstract stories](http://srccon.org/sessions/#proposal-318582)
 
 [![](headshots/allison_mccartney.jpeg)](https://twitter.com/anmccartney)
 
@@ -560,8 +526,7 @@ Amateur shapeshifter. Currently at @BrownInstitute and @Reveal.
 
 ### Dolly
 
-#### session: 
-[**Illustrating Investigations: Creating compelling visuals for abstract stories**](http://srccon.org/sessions/#proposal-318582)
+#### [Illustrating Investigations: Creating compelling visuals for abstract stories](http://srccon.org/sessions/#proposal-318582)
 
 [![](headshots/dolly.jpeg)](https://twitter.com/dollyli)
 
@@ -575,8 +540,7 @@ visual journalist & illustrator. makin it rain charts, infogifs, and doodles at 
 
 ### gaba
 
-#### session: 
-[**Install Party: The Coral Project**](http://srccon.org/sessions/#proposal-317495)
+#### [Install Party: The Coral Project](http://srccon.org/sessions/#proposal-317495)
 
 [![](headshots/gaba.jpg)](https://twitter.com/gaba)
 
@@ -590,8 +554,7 @@ programmer / queer / feminist / floss  / media / open data / security / spanglis
 
 ### jde
 
-#### session: 
-[**Install Party: The Coral Project**](http://srccon.org/sessions/#proposal-317495)
+#### [Install Party: The Coral Project](http://srccon.org/sessions/#proposal-317495)
 
 [![](headshots/jde.jpeg)](https://twitter.com/daviderwin)
 
@@ -605,8 +568,7 @@ Working on @coralproject by day, kid trampoline by night, bass twanger for http:
 
 ### William Wolfe-Wylie
 
-#### session: 
-[**Keeping people at the forefront of data stories**](http://srccon.org/sessions/#proposal-318535)
+#### [Keeping people at the forefront of data stories](http://srccon.org/sessions/#proposal-318535)
 
 [![](headshots/william_wolfewylie.jpg)](https://twitter.com/wolfewylie)
 
@@ -620,8 +582,7 @@ I code internet @CBCNews, teach internet @CentennialJourn and @MunkSchool, mento
 
 ### Erin Kissane
 
-#### session: 
-[**Let's All Be Terrible at Things Together**](http://srccon.org/sessions/#proposal-318534)
+#### [Let's All Be Terrible at Things Together](http://srccon.org/sessions/#proposal-318534)
 
 [![](headshots/erin_kissane.jpg)](https://twitter.com/kissane)
 
@@ -635,8 +596,7 @@ Working on code in journalism with @OpenNews + @Source + @SRCCON. Changing lanes
 
 ### Ingrid Burrington
 
-#### session: 
-[**Let's All Be Terrible at Things Together**](http://srccon.org/sessions/#proposal-318534)
+#### [Let's All Be Terrible at Things Together](http://srccon.org/sessions/#proposal-318534)
 
 [![](headshots/ingrid_burrington.jpg)](https://twitter.com/lifewinning)
 
@@ -664,8 +624,7 @@ Editor, @GdnMobileLab. Formerly: lots of digital news roles @nytimes Co-keeper o
 
 ### Alastair Coote
 
-#### session: 
-[**News, mobile and privacy: Where’s the line between convenient and creepy?**](http://srccon.org/sessions/#proposal-318635)
+#### [News, mobile and privacy: Where’s the line between convenient and creepy?](http://srccon.org/sessions/#proposal-318635)
 
 [![](headshots/alastair_coote.jpg)](https://twitter.com/_alastair)
 
@@ -679,8 +638,7 @@ Doing stuff with code at @gdnmobilelab. Previously @nytimes. British born, livin
 
 ### Steph Yiu
 
-#### session: 
-[**OMGWTFBBQ: Breaking news without breaking your site**](http://srccon.org/sessions/#proposal-318565)
+#### [OMGWTFBBQ: Breaking news without breaking your site](http://srccon.org/sessions/#proposal-318565)
 
 [![](headshots/steph_yiu.jpg)](https://twitter.com/crushgear)
 
@@ -694,8 +652,7 @@ Works at @WordPressVIP. Formerly @TestKitchen, Chicago Tribune @redeyechicago, @
 
 ### Jeremy Bowers
 
-#### session: 
-[**Open Sourcing And You**](http://srccon.org/sessions/#proposal-318023)
+#### [Open Sourcing And You](http://srccon.org/sessions/#proposal-318023)
 
 [![](headshots/jeremy_bowers.jpg)](https://twitter.com/jeremybowers)
 
@@ -709,8 +666,7 @@ Elections, Congress, SCOTUS at @nytinteractive. Priors: @nprviz, @washingtonpost
 
 ### dan sinker
 
-#### session: 
-[**Peer Critique for News Nerds**](http://srccon.org/sessions/#proposal-318426)
+#### [Peer Critique for News Nerds](http://srccon.org/sessions/#proposal-318426)
 
 [![](headshots/dan_sinker.jpeg)](https://twitter.com/dansinker)
 
@@ -724,8 +680,7 @@ I make stuff. Heading up the Knight-Mozilla OpenNews project, author of @MayorEm
 
 ### scottpham
 
-#### session: 
-[**Platform Constraints—When to Fight and When to Admit Defeat**](http://srccon.org/sessions/#proposal-318561)
+#### [Platform Constraints—When to Fight and When to Admit Defeat](http://srccon.org/sessions/#proposal-318561)
 
 [![](headshots/scottpham.jpg)](https://twitter.com/scottpham)
 
@@ -753,8 +708,7 @@ Maps and Charts @energy. Follower of Christ. Philly Native.
 
 ### Alan Palazzolo
 
-#### session: 
-[**Playtime (in ludicrous speed)**](http://srccon.org/sessions/#proposal-317464)
+#### [Playtime (in ludicrous speed)](http://srccon.org/sessions/#proposal-317464)
 
 [![](headshots/alan_palazzolo.jpg)](https://twitter.com/zzolo)
 
@@ -796,8 +750,7 @@ website: [http://www.leimdorfer.co.uk**](http://www.leimdorfer.co.uk)
 
 ### Annie Daniel
 
-#### session: 
-[**Running undergraduate internships that produce great newsroom developers**](http://srccon.org/sessions/#proposal-318203)
+#### [Running undergraduate internships that produce great newsroom developers](http://srccon.org/sessions/#proposal-318203)
 
 [![](headshots/annie_daniel.jpg)](https://twitter.com/anieldaniel)
 
@@ -811,8 +764,7 @@ Data & visuals developer at @TexasTribune. Aggressive tar heel. Rory Gilmore Jr.
 
 ### Aram Zucker-Scharff
 
-#### session: 
-[**Skipping the blame game and working across teams to fix newsroom Ad Tech**](http://srccon.org/sessions/#proposal-318653)
+#### [Skipping the blame game and working across teams to fix newsroom Ad Tech](http://srccon.org/sessions/#proposal-318653)
 
 [![](headshots/aram_zuckerscharff.jpeg)](https://twitter.com/Chronotope)
 
@@ -826,8 +778,7 @@ AramZS elsewhere. Narrative designer, digital tool-maker, obsessive reader. Deve
 
 ### Matt
 
-#### session: 
-[**Sometimes I Sit and Think About Evergreen Content and Sometimes I Just Sit**](http://srccon.org/sessions/#proposal-318322)
+#### [Sometimes I Sit and Think About Evergreen Content and Sometimes I Just Sit](http://srccon.org/sessions/#proposal-318322)
 
 [![](headshots/matt.jpg)](https://twitter.com/mattdennewitz)
 
@@ -841,8 +792,7 @@ vp product @pitchfork. i make @beergraphs, @saberarchive / https://ballsandstrik
 
 ### ᶘ ᵒ㉨ᵒᶅ
 
-#### session: 
-[**Sometimes I Sit and Think About Evergreen Content and Sometimes I Just Sit**](http://srccon.org/sessions/#proposal-318322)
+#### [Sometimes I Sit and Think About Evergreen Content and Sometimes I Just Sit](http://srccon.org/sessions/#proposal-318322)
 
 [![](headshots/donohoe.jpg)](https://twitter.com/donohoe)
 
@@ -870,8 +820,7 @@ journalism + design + code. @journalsentinel. past: @pbpost, google j-fellow @Po
 
 ### Ted Han
 
-#### session: 
-[**The Ecology of Newsroom Software**](http://srccon.org/sessions/#proposal-318576)
+#### [The Ecology of Newsroom Software](http://srccon.org/sessions/#proposal-318576)
 
 [![](headshots/ted_han.jpg)](https://twitter.com/knowtheory)
 
@@ -887,8 +836,7 @@ https://keybase.io/knowtheory 
 
 ### Mike Tigas
 
-#### session: 
-[**The Ecology of Newsroom Software**](http://srccon.org/sessions/#proposal-318576)
+#### [The Ecology of Newsroom Software](http://srccon.org/sessions/#proposal-318576)
 
 [![](headshots/mike_tigas.jpg)](https://twitter.com/mtigas)
 
@@ -902,8 +850,7 @@ hacker-journo at @propublica | core @tabulaPDF dev | tor iOS dev (http://onionbr
 
 ### Sandhya Kambhampati
 
-#### session: 
-[**The good and bad of newsroom on-boarding processes (and how can we make them better)**](http://srccon.org/sessions/#proposal-317007)
+#### [The good and bad of newsroom on-boarding processes (and how can we make them better)](http://srccon.org/sessions/#proposal-317007)
 
 [![](headshots/sandhya_kambhampati.jpg)](https://twitter.com/sandhya__k)
 
@@ -917,8 +864,7 @@ Knight-Mozilla @opennews fellow @Correctiv_org. Likes stats, public records & ic
 
 ### Lam Thuy Vo
 
-#### session: 
-[**The good and bad of newsroom on-boarding processes (and how can we make them better)**](http://srccon.org/sessions/#proposal-317007)
+#### [The good and bad of newsroom on-boarding processes (and how can we make them better)](http://srccon.org/sessions/#proposal-317007)
 
 [![](headshots/lam_thuy_vo.jpg)](https://twitter.com/lamthuyvo)
 
@@ -932,8 +878,7 @@ Data journalist/swiss army knife @WSJ Teach @cunyjschool. Previously @AJAM, @Pla
 
 ### Kaeti Hinck
 
-#### session: 
-[**They don’t want you to lead: Major keys to success as an underrepresented manager**](http://srccon.org/sessions/#proposal-318308)
+#### [They don’t want you to lead: Major keys to success as an underrepresented manager](http://srccon.org/sessions/#proposal-318308)
 
 [![](headshots/kaeti_hinck.jpg)](https://twitter.com/kaeti)
 
@@ -947,8 +892,7 @@ Data editor with @postgraphics. By way of @INNnerds, @MinnData. I dig kind peopl
 
 ### Emily Chow
 
-#### session: 
-[**They don’t want you to lead: Major keys to success as an underrepresented manager**](http://srccon.org/sessions/#proposal-318308)
+#### [They don’t want you to lead: Major keys to success as an underrepresented manager](http://srccon.org/sessions/#proposal-318308)
 
 [![](headshots/emily_chow.jpg)](https://twitter.com/eschow)
 
@@ -962,8 +906,7 @@ Designer, developer, visual storyteller. Also, knitter, baker and @citydogsrescu
 
 ### Julia Wolfe
 
-#### session: 
-[**Threat Modeling for Code: When is Bad Code the Better Solution?**](http://srccon.org/sessions/#proposal-318449)
+#### [Threat Modeling for Code: When is Bad Code the Better Solution?](http://srccon.org/sessions/#proposal-318449)
 
 [![](headshots/julia_wolfe.jpg)](https://twitter.com/juruwolfe)
 
@@ -977,8 +920,7 @@ News app developer @WSJ covering the election. Almost Canadian. Say hi: julia.wo
 
 ### Ivar Vong
 
-#### session: 
-[**Threat Modeling for Code: When is Bad Code the Better Solution?**](http://srccon.org/sessions/#proposal-318449)
+#### [Threat Modeling for Code: When is Bad Code the Better Solution?](http://srccon.org/sessions/#proposal-318449)
 
 [![](headshots/ivar_vong.jpeg)](https://twitter.com/ivarvong)
 
@@ -992,8 +934,7 @@ tech/product at the @marshallproj. retired quadcopter pilot
 
 ### Joe Germuska
 
-#### session: 
-[**Through an iPhone Darkly: Media and Networks through the lens of Science Fiction**](http://srccon.org/sessions/#proposal-317973)
+#### [Through an iPhone Darkly: Media and Networks through the lens of Science Fiction](http://srccon.org/sessions/#proposal-317973)
 
 [![](headshots/joe_germuska.png)](https://twitter.com/JoeGermuska)
 
@@ -1007,8 +948,7 @@ Chief Nerd @KnightLab • Project lead @CensusReporter • Host, Conference of t
 
 ### Juan Elosua
 
-#### session: 
-[**Tips and tricks: let's share our small time savers**](http://srccon.org/sessions/#proposal-318473)
+#### [Tips and tricks: let's share our small time savers](http://srccon.org/sessions/#proposal-318473)
 
 [![](headshots/juan_elosua.jpeg)](https://twitter.com/jjelosua)
 
@@ -1022,8 +962,7 @@ Soon to be news apps developer @nprviz. Former Knight-Mozilla fellow @LNdata. Op
 
 ### Miguel Fiandor
 
-#### session: 
-[**Tools to search millions of documents remotely and across borders**](http://srccon.org/sessions/#proposal-318531)
+#### [Tools to search millions of documents remotely and across borders](http://srccon.org/sessions/#proposal-318531)
 
 [![](headshots/miguel_fiandor.jpg)](https://twitter.com/mfiandor)
 
@@ -1037,8 +976,7 @@ Computer Engineer and Renewable Energy master. Interested in sustainability, ope
 
 ### Pamela Assogba
 
-#### session: 
-[**True Life: I Work Remotely**](http://srccon.org/sessions/#proposal-318047)
+#### [True Life: I Work Remotely](http://srccon.org/sessions/#proposal-318047)
 
 [![](headshots/pamela_assogba.jpg)](https://twitter.com/pam_yam)
 
@@ -1068,8 +1006,7 @@ Past: @opennews fellow, @pbpost, @medillschool, @microsoft, and @trichynit
 
 ### Dan Zajdband
 
-#### session: 
-[**WebVR for the rest of us**](http://srccon.org/sessions/#proposal-317026)
+#### [WebVR for the rest of us](http://srccon.org/sessions/#proposal-317026)
 
 [![](headshots/dan_zajdband.jpg)](https://twitter.com/impronunciable)
 
@@ -1083,8 +1020,7 @@ Psiconauta del inconsciente. 2016 Knight-Mozilla fellow at @coralproject / @nyti
 
 ### AmyJo Brown
 
-#### session: 
-[**What ideas can we borrow from the design world to solve news design problems?**](http://srccon.org/sessions/#proposal-318001)
+#### [What ideas can we borrow from the design world to solve news design problems?](http://srccon.org/sessions/#proposal-318001)
 
 [![](headshots/amyjo_brown.jpg)](https://twitter.com/amyjo_brown)
 
@@ -1098,8 +1034,7 @@ Reporter & editor. Work a lot with data, information design. Coffee addict. Urba
 
 ### Jennifer Thibault
 
-#### session: 
-[**What ideas can we borrow from the design world to solve news design problems?**](http://srccon.org/sessions/#proposal-318001)
+#### [What ideas can we borrow from the design world to solve news design problems?](http://srccon.org/sessions/#proposal-318001)
 
 [![](headshots/jennifer_thibault.jpg)](https://twitter.com/jlthibault)
 
@@ -1113,8 +1048,7 @@ Designing for The People, with @18F Better 'grammer than twitterer: http://insta
 
 ### Evie Liu
 
-#### session: 
-[**When is big data too big? When is less more?**](http://srccon.org/sessions/#proposal-318644)
+#### [When is big data too big? When is less more?](http://srccon.org/sessions/#proposal-318644)
 
 [![](headshots/evie_liu.jpeg)](https://twitter.com/Evie_xing)
 
@@ -1128,8 +1062,7 @@ Data journalist @NYDailyNews, former @KPCC @USCAnnenberg. Storyteller, data mine
 
 ### stevesuo
 
-#### session: 
-[**When is big data too big? When is less more?**](http://srccon.org/sessions/#proposal-318644)
+#### [When is big data too big? When is less more?](http://srccon.org/sessions/#proposal-318644)
 
 [![](headshots/stevesuo.jpg)](https://twitter.com/stevesuo)
 
@@ -1143,8 +1076,7 @@ Journalist, dad, nerd. Editor for investigative and data-driven enterprise @Oreg
 
 ### Chris Canipe
 
-#### session: 
-[**Where Are the Midsize Metro News Developers**](http://srccon.org/sessions/#proposal-318313)
+#### [Where Are the Midsize Metro News Developers](http://srccon.org/sessions/#proposal-318313)
 
 [![](headshots/chris_canipe.jpg)](https://twitter.com/ccanipe)
 
@@ -1158,8 +1090,7 @@ I make web things for The Wall Street Journal. I also teach a news apps class at
 
 ### Jon McClure
 
-#### session: 
-[**Where Are the Midsize Metro News Developers**](http://srccon.org/sessions/#proposal-318313)
+#### [Where Are the Midsize Metro News Developers](http://srccon.org/sessions/#proposal-318313)
 
 [![](headshots/jon_mcclure.jpeg)](https://twitter.com/JonRMcClure)
 
@@ -1187,8 +1118,7 @@ director of global adaptation @buzzfeed  likes to run toward wicked problems, bu
 
 ### stacy-marie ishmael
 
-#### session: 
-[**Why your bot is nothing without a human**](http://srccon.org/sessions/#proposal-318651)
+#### [Why your bot is nothing without a human](http://srccon.org/sessions/#proposal-318651)
 
 [![](headshots/stacymarie_ishmael.jpg)](https://twitter.com/s_m_i)
 
@@ -1202,8 +1132,7 @@ website: [None](None)
 
 ### Martin McClellan
 
-#### session: 
-[**Working at the pace of Breaking News**](http://srccon.org/sessions/#proposal-318338)
+#### [Working at the pace of Breaking News](http://srccon.org/sessions/#proposal-318338)
 
 [![](headshots/martin_mcclellan.jpg)](https://twitter.com/hellbox)
 
@@ -1217,8 +1146,7 @@ Novelist, critic, and designer. Co-founder of @seattlereviewof, author of @cal4o
 
 ### Tiff Fehr
 
-#### session: 
-[**Working at the pace of Breaking News**](http://srccon.org/sessions/#proposal-318338)
+#### [Working at the pace of Breaking News](http://srccon.org/sessions/#proposal-318338)
 
 [![](headshots/tiff_fehr.png)](https://twitter.com/tiffehr)
 
@@ -1234,8 +1162,7 @@ Probably following you via matryoshka-like Lists.
 
 ### David Yanofsky
 
-#### session: 
-[**You want to teach a reporter to do what‽**](http://srccon.org/sessions/#proposal-315520)
+#### [You want to teach a reporter to do what‽](http://srccon.org/sessions/#proposal-315520)
 
 [![](headshots/david_yanofsky.jpg)](https://twitter.com/YAN0)
 
@@ -1249,8 +1176,7 @@ website: [http://yanofsky.info**](http://yanofsky.info)
 
 ### Sarah Squire
 
-#### session: 
-[**You want to teach a reporter to do what‽**](http://srccon.org/sessions/#proposal-315520)
+#### [You want to teach a reporter to do what‽](http://srccon.org/sessions/#proposal-315520)
 
 [![](headshots/sarah_squire.jpg)](https://twitter.com/sarahjsquire)
 
@@ -1264,8 +1190,7 @@ Executive editor for data/graphics/viz at Dow Jones Media • PR for @lolathesco
 
 ### Ryan Murphy
 
-#### session: 
-[**You're The Reason My Name Is On Google: The Ethics Of Publishing Public Data**](http://srccon.org/sessions/#proposal-318629)
+#### [You're The Reason My Name Is On Google: The Ethics Of Publishing Public Data](http://srccon.org/sessions/#proposal-318629)
 
 [![](headshots/ryan_murphy.jpg)](https://twitter.com/rdmurphy)
 
