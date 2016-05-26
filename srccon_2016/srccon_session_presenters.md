@@ -89,7 +89,7 @@ chief garbage monster @Bocoup; figurehead @brooklyn_js; probably not three cats 
 
 ### Sarah Moughty
 
-#### session(s): [Break Down that Wall: Why Editorial and Audience Development Need to Work Together ¶](http://srccon.org/sessions/#proposal-318639)
+#### session(s): [Break Down that Wall: Why Editorial and Audience Development Need to Work Together](http://srccon.org/sessions/#proposal-318639)
 
 [![](headshots/sarah_moughty.png)](https://twitter.com/smoughts)
 
@@ -101,9 +101,9 @@ Managing editor, digital @frontlinepbs. Smoking them all with intellect & savoir
 
  --- 
 
-### pamjohnston
+### Pamela Johnston
 
-#### session(s): 
+#### session(s): [Break Down that Wall: Why Editorial and Audience Development Need to Work Together](http://srccon.org/sessions/#proposal-318639)
 
 [![](headshots/pamjohnston.jpg)](https://twitter.com/PamJohnston)
 
