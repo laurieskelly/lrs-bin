@@ -72,18 +72,6 @@ chief garbage monster @Bocoup; figurehead @brooklyn_js; probably not three cats 
 
  --- 
 
-### spacer.r04
-
-[![](headshots/spacerr04.jpg)](https://twitter.com/brianloveswords)
-
-[@brianloveswords](https://twitter.com/brianloveswords), Joined November 2008
-
-website: [None](None) 
-
-chief garbage monster @Bocoup; figurehead @brooklyn_js; probably not three cats in a trench coat. He/him 
-
- --- 
-
 ### Sarah Moughty
 
 [![](headshots/sarah_moughty.png)](https://twitter.com/smoughts)
