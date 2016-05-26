@@ -84,19 +84,6 @@ website: [https://www.linkedin.com/pub/brian-j-brennan/20/28a/4a9](https://www.l
 
 chief garbage monster @Bocoup; figurehead @brooklyn_js; probably not three cats in a trench coat. He/him 
 
- --- 
-
-### spacer.r04
-
-#### session(s): [Beyond console.log: making the most of your developer tools ¶](http://srccon.org/sessions/#proposal-317448)
-
-[![](headshots/spacerr04.jpg)](https://twitter.com/brianloveswords)
-
-[@brianloveswords](https://twitter.com/brianloveswords), Joined November 2008
-
-website: [None](None) 
-
-chief garbage monster @Bocoup; figurehead @brooklyn_js; probably not three cats in a trench coat. He/him 
 
  --- 
 
