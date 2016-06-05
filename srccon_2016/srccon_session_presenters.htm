@@ -1,0 +1,1628 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
+  width: 45em;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 30px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAzUABAAAAAAFNgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABbAAAABwAAAAcZMzaOEdERUYAAAGIAAAAHQAAACAAOQAET1MvMgAAAagAAAA+AAAAYHqhde9jbWFwAAAB6AAAAFIAAAFa4azkLWN2dCAAAAI8AAAAKAAAACgFgwioZnBnbQAAAmQAAAGxAAACZVO0L6dnYXNwAAAEGAAAAAgAAAAIAAAAEGdseWYAAAQgAAAFDgAACMz7eroHaGVhZAAACTAAAAAwAAAANgWEOEloaGVhAAAJYAAAAB0AAAAkDGEGa2htdHgAAAmAAAAAEwAAADBEgAAQbG9jYQAACZQAAAAaAAAAGgsICJBtYXhwAAAJsAAAACAAAAAgASgBD25hbWUAAAnQAAACZwAABOD4no+3cG9zdAAADDgAAABsAAAAmF+yXM9wcmVwAAAMpAAAAC4AAAAusPIrFAAAAAEAAAAAyYlvMQAAAADLVHQgAAAAAM/u9uZ4nGNgZGBg4ANiCQYQYGJgBEJuIGYB8xgABMMAPgAAAHicY2Bm42OcwMDKwMLSw2LMwMDQBqGZihmiwHycoKCyqJjB4YPDh4NsDP+BfNb3DIuAFCOSEgUGRgAKDgt4AAB4nGNgYGBmgGAZBkYGEAgB8hjBfBYGCyDNxcDBwMTA9MHhQ9SHrA8H//9nYACyQyFs/sP86/kX8HtB9UIBIxsDXICRCUgwMaACRoZhDwA3fxKSAAAAAAHyAHABJQB/AIEAdAFGAOsBIwC/ALgAxACGAGYAugBNACcA/wCIeJxdUbtOW0EQ3Q0PA4HE2CA52hSzmZDGe6EFCcTVjWJkO4XlCGk3cpGLcQEfQIFEDdqvGaChpEibBiEXSHxCPiESM2uIojQ7O7NzzpkzS8qRqnfpa89T5ySQwt0GzTb9Tki1swD3pOvrjYy0gwdabGb0ynX7/gsGm9GUO2oA5T1vKQ8ZTTuBWrSn/tH8Cob7/B/zOxi0NNP01DoJ6SEE5ptxS4PvGc26yw/6gtXhYjAwpJim4i4/plL+tzTnasuwtZHRvIMzEfnJNEBTa20Emv7UIdXzcRRLkMumsTaYmLL+JBPBhcl0VVO1zPjawV2ys+hggyrNgQfYw1Z5DB4ODyYU0rckyiwNEfZiq8QIEZMcCjnl3Mn+pED5SBLGvElKO+OGtQbGkdfAoDZPs/88m01tbx3C+FkcwXe/GUs6+MiG2hgRYjtiKYAJREJGVfmGGs+9LAbkUvvPQJSA5fGPf50ItO7YRDyXtXUOMVYIen7b3PLLirtWuc6LQndvqmqo0inN+17OvscDnh4Lw0FjwZvP+/5Kgfo8LK40aA4EQ3o3ev+iteqIq7wXPrIn07+xWgAAAAABAAH//wAPeJyFlctvG1UUh+/12DPN1B7P3JnYjj2Ox4/MuDHxJH5N3UdaEUQLqBIkfQQioJWQ6AMEQkIqsPGCPwA1otuWSmTBhjtps2ADWbJg3EpIXbGouqSbCraJw7kzNo2dRN1cnXN1ZvT7zuuiMEI7ncizyA0URofRBJpCdbQuIFShYY+GZRrxMDVtih5TwQPHtXDFFSIKoWIbuREBjLH27Ny4MsbVx+uOJThavebgVrNRLAiYx06rXsvhxLgWx9xpfHdrs/ekc2Pl2cpPCVEITQpwbj8VQhfXSq2m+Wxqaq2D73Kne5e3NjHqQNj3CRYlJlgUl/jRNP+2Gs2pNYRQiOnmUaQDqm30KqKiTTWPWjboxnTWpvgxjXo0KrtZXAHt7hwIz0YVcj88JnKlJKi3NPAwLyDwZudSmJSMMJFDYaOkaol6XtESx3Gt1VTytdZJ3DCLeaVhVnCBH1fycHTxFXwPX+l2e3d6H/TufGGmMTLTnbSJUdo00zuBswMO/nl3YLeL/wnu9/limCuD3vC54h5NBVz6Li414AI8Vx3iiosKcQXUbrvhFFiYb++HN4DaF4XzFW0fIN4XDWJ3a3XQoq9V8WiyRmdsatV9xUcHims1JloH0YUa090G3Tro3mC6c01f+YwCPquINr1PTaCP6rVTOOmf0GE2dBc7zWIhji3/5MchSuBHgDbU99RMWt3YUNMZMJmx92YP6NsHx/5/M1yvInpnkIOM3Z8fA3JQ2lW1RFC1KaBPDFXNAHYYvGy73aYZZZ3HifbeuiVZCpwA3oQBs0wGPYJbJfg60xrKEbKiNtTe1adwrpBRwlAuQ3q3VRaX0QmQ9a49BTSCuF1MLfQ6+tinOubRBZuWPNoMevGMT+V41KitO1is3D/tpMcq1JHZqDHGs8DoYGDkxJgKjHROeTCmhZvzPm9pod+ltKm4PN7Dyvvldlpsg8D+4AUJZ3F/JBstZz7cbFRxsaAGV6yX/dkcycWf8eS3QlQea+YLjdm3yrOnrhFpUyKVvFE4lpv4bO3Svx/6F/4xmiDu/RT5iI++lko18mY1oX+5UGKR6kmVjM/Zb76yfHtxy+h/SyQ0lLdpdKy/lWB6szatetQJ8nZ80A2Qt6ift6gJeavU3BO4gtxs/KCtNPVibCtYCWY3SIlSBPKXZALXiIR9oZeJ1AuMyxLpHIy/yO7vSiSE+kZvk0ihJ30HgHfzZtEMmvV58x6dtqns0XTAW7Vdm4HJ04OCp/crOO7rd9SGxQAE/mVA9xRN+kVSMRFF6S9JFGUtthkjBA5tFCWc2l4V43Ex9GmUP3SI37Jjmir9KqlaDJ4S4JB3vuM/jzyH1+8MuoZ+QGzfnvPoJb96cZlWjMcKLfgDwB7E634JTY+asjsPzS5CiVnEWY+KsrsIN5rn3mAPjqmQBxGjcGKB9f9ZxY3mYC2L85CJ2FXIxKKyHk+dg0FHbuEc7D5NzWUX32WxFcWNGRAbvwSx0RmIXVDuYySafluQBmzA/ssqJAMLnli+WIC90Gw4lm85wcp0qjArEDPJJV/sSx4P9ungTpgMw5gVC1XO4uULq0s3v1rqLi0vX/z65vlH50f8T/RHmSPTk5xxWBWOluMT6WiOy+tdvWxlV/XQb3o3c6Ssr+r6I708GsX9/nzp1tKFh0s3v7m4vAy/Hnb/KMOvc1wump6Il48K6mGDy02X9Yd65pa+nQIjk76lWxCkG8NBCP0HQS9IpAAAeJxjYGRgYGBhcCrq214Qz2/zlUGenQEEzr/77oug/zewFbB+AHI5GJhAogBwKQ0qeJxjYGRgYH3/P46BgZ0BBNgKGBgZUAEPAE/7At0AAAB4nGNngAB2IGYjhBsYBAAIYADVAAAAAAAAAAAAAFwAyAEeAaACCgKmAx4DggRmAAAAAQAAAAwAagAEAAAAAAACAAEAAgAWAAABAAChAAAAAHiclZI7bxQxFIWPd/JkUYQChEhIyAVKgdBMskm1QkKrRETpQiLRUczueB/K7HhlOxttg8LvoKPgP9DxFxANDR0tHRWi4NjrPIBEgh1p/dm+vufcawNYFWsQmP6e4jSyQB2fI9cwj++RE9wTjyPP4LYoI89iWbyLPIe6+Bh5Hs9rryMv4GbtW+RF3EhuRa7jbrIbeQkPkjdUETOLnL0Kip4FVvAhco1RXyMnSPEz8gzWxE7kWTwUp5HnsCLeR57HW/El8gJWa58iL+JO7UfkOh4l9yMv4UnyEtvQGGECgwF66MNBooF1bGCL1ELB/TYU+ZBRlvsKQ44Se6jQ4a7hef+fh72Crv25kp+8lNWGmeKoOI5jJLb1aGIGvb6TjfWNLdkqdFvJw4l1amjlXtXRZqRN7lSRylZZyhBqpVFWmTEXgWfUrpi/hZOQXdOd4rKuXOtEWT3k5IArPRzTUU5tHKjecZkTpnVbNOnt6jzN8240GD4xtikvZW56043rPMg/dS+dlOceXoR+WPbJ55Dsekq1lJpnypsMUsYOdCW30o103Ytu/lvh+5RWFLfBjm9/N8hJntPhvx92rnoE/kyHdGasGy754kw36vsVf/lFeBi+0COu+cfgQr42G3CRpeLoZ53gmfe3X6rcKt5oVxnptHR9JS8ehVUd5wvvahN2uqxOOpMXapibI5k7Zwbt4xBSaTfoKBufhAnO/uqNcfK8OTs0OQ6l7JIqFjDhYj5WcjevCnI/1DDiI8j4ndWb/5YzDZWh79yomWXeXj7Nnw70/2TIeFPTrlSh89k1ObOSRVZWZfgF0r/zJQB4nG2JUQuCQBCEd07TTg36fb2IyBaLd3vWaUh/vmSJnvpgmG8YcmS8X3Shf3R7QA4OBUocUKHGER5NNbOOEvwc1txnuWkTRb/aPjimJ5vXabI+3VfOiyS15UWvyezM2xiGOPyuMohOH8O8JiO4Af+FsAGNAEuwCFBYsQEBjlmxRgYrWCGwEFlLsBRSWCGwgFkdsAYrXFhZsBQrAAA=) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><title>srccon_session_presenters</title></head><body><article class="markdown-body"><h1 id="srccon-2016-presenters"><a name="user-content-srccon-2016-presenters" href="#srccon-2016-presenters" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>SRCCON 2016 presenters</h1>
+<hr />
+<h3 id="katie-park"><a name="user-content-katie-park" href="#katie-park" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Katie Park</h3>
+<h4 id="a-data-analysis-of-ourselves"><a href="http://srccon.org/sessions/#proposal-318592">A data analysis of ourselves</a></h4>
+<p><a href="https://twitter.com/katiepark"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/katie_park.jpg" /></a></p>
+<p><a href="https://twitter.com/katiepark">@katiepark</a>, DC</p>
+<p>website: <a href="None">None</a> </p>
+<p>Code + graphics at @nprviz, previously @postgraphics. Tampa-raised. Guitar/vox @hemlinesband + @badmovesdc. </p>
+<hr />
+<h3 id="aaron-williams"><a name="user-content-aaron-williams" href="#aaron-williams" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>☔️ Aaron Williams  ☔️</h3>
+<h4 id="a-data-analysis-of-ourselves_1"><a href="http://srccon.org/sessions/#proposal-318592">A data analysis of ourselves</a></h4>
+<p><a href="https://twitter.com/aboutaaron"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/aaron_williams.jpg" /></a></p>
+<p><a href="https://twitter.com/aboutaaron">@aboutaaron</a>, Washington, DC</p>
+<p>website: <a href="https://www.acwx.net/2015/12/03/ive-changed-a-lot/"><a href="https://www.acwx.net/2015/12/03/ive-changed-a-lot/"><a href="https://www.acwx.net/2015/12/03/ive-changed-a-lot/">https://www.acwx.net/2015/12/03/ive-changed-a-lot/</a></a></a> </p>
+<p>(☞ ͡° ͜ʖ ͡°)☞ Reporter @postgraphics  Hacker @CACivicDataaaron.<a href="mailto:williams@washpost.com">williams@washpost.com</a>. always willing to help. email me. </p>
+<hr />
+<h3 id="joanna-s-kao"><a name="user-content-joanna-s-kao" href="#joanna-s-kao" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Joanna S. Kao</h3>
+<h4 id="accessibility-in-media"><a href="http://srccon.org/sessions/#proposal-318685">Accessibility in media</a></h4>
+<p><a href="https://twitter.com/joannaskao"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/joanna_kao.jpg" /></a></p>
+<p><a href="https://twitter.com/joannaskao">@joannaskao</a>, New York, NY</p>
+<p>website: <a href="http://www.joannaskao.com"><a href="http://www.joannaskao.com"><a href="http://www.joannaskao.com">http://www.joannaskao.com</a></a></a> </p>
+<p>@FT dataviz journalist, @MIT &lsquo;13 CS grad, formerly @ajam, @thetech, @BostonGlobe. Tweeting @BroadwayData for fun. PGP 0x81CFC062 </p>
+<hr />
+<h3 id="joel-eastwood"><a name="user-content-joel-eastwood" href="#joel-eastwood" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Joel Eastwood</h3>
+<h4 id="balancing-mental-health-in-the-newsroom"><a href="http://srccon.org/sessions/#proposal-318365">Balancing mental health in the newsroom</a></h4>
+<p><a href="https://twitter.com/JoelEastwood"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/joel_eastwood.jpg" /></a></p>
+<p><a href="https://twitter.com/JoelEastwood">@JoelEastwood</a>, New York, NY</p>
+<p>website: <a href="http://joeleastwood.ca/"><a href="http://joeleastwood.ca/"><a href="http://joeleastwood.ca/">http://joeleastwood.ca/</a></a></a> </p>
+<p>Loitering at the intersection of journalism, code, data and graphics for @WSJ. Canadian. <a href="mailto:joel.eastwood@wsj.com">joel.eastwood@wsj.com</a> </p>
+<hr />
+<h3 id="emma-carew-grovum"><a name="user-content-emma-carew-grovum" href="#emma-carew-grovum" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Emma Carew Grovum</h3>
+<h4 id="balancing-mental-health-in-the-newsroom_1"><a href="http://srccon.org/sessions/#proposal-318365">Balancing mental health in the newsroom</a></h4>
+<p><a href="https://twitter.com/emmacarew"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/emma_carew_grovum.jpg" /></a></p>
+<p><a href="https://twitter.com/emmacarew">@emmacarew</a>, New York, NY</p>
+<p>website: <a href="http://www.emmacarewgrovum.com"><a href="http://www.emmacarewgrovum.com"><a href="http://www.emmacarewgrovum.com">http://www.emmacarewgrovum.com</a></a></a> </p>
+<p>Asst. Managing Editor @thedailybeast | cofounder @DiversifyJourn #mediadiversity | member @ONA @AAJA @techladymafia | Married to @jgrovum </p>
+<hr />
+<h3 id="brian-j-brennan"><a name="user-content-brian-j-brennan" href="#brian-j-brennan" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Brian J. Brennan</h3>
+<h4 id="beyond-consolelog-making-the-most-of-your-developer-too"><a href="http://srccon.org/sessions/#proposal-317448">Beyond console.log: making the most of your developer too</a></h4>
+<p><a href="https://twitter.com/brianloveswords"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/brian_brennan.jpg" /></a></p>
+<p><a href="https://twitter.com/brianloveswords">@brianloveswords</a>, Brooklyn, NY</p>
+<p>website: <a href="https://www.linkedin.com/pub/brian-j-brennan/20/28a/4a9"><a href="https://www.linkedin.com/pub/brian-j-brennan/20/28a/4a9"><a href="https://www.linkedin.com/pub/brian-j-brennan/20/28a/4a9">https://www.linkedin.com/pub/brian-j-brennan/20/28a/4a9</a></a></a> </p>
+<p>chief garbage monster @Bocoup; figurehead @brooklyn_js; probably not three cats in a trench coat. He/him </p>
+<hr />
+<h3 id="sarah-moughty"><a name="user-content-sarah-moughty" href="#sarah-moughty" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Sarah Moughty</h3>
+<h4 id="break-down-that-wall-why-editorial-and-audience-development-need-to-work-together"><a href="http://srccon.org/sessions/#proposal-318639">Break Down that Wall: Why Editorial and Audience Development Need to Work Together</a></h4>
+<p><a href="https://twitter.com/smoughts"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/sarah_moughty.png" /></a></p>
+<p><a href="https://twitter.com/smoughts">@smoughts</a>, </p>
+<p>website: <a href="http://www.pbs.org/frontline"><a href="http://www.pbs.org/frontline"><a href="http://www.pbs.org/frontline">http://www.pbs.org/frontline</a></a></a> </p>
+<p>Managing editor, digital @frontlinepbs. Smoking them all with intellect &amp; savoir-faire. </p>
+<hr />
+<h3 id="pamela-johnston"><a name="user-content-pamela-johnston" href="#pamela-johnston" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Pamela Johnston</h3>
+<h4 id="break-down-that-wall-why-editorial-and-audience-development-need-to-work-together_1"><a href="http://srccon.org/sessions/#proposal-318639">Break Down that Wall: Why Editorial and Audience Development Need to Work Together</a></h4>
+<p><a href="https://twitter.com/PamJohnston"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/pamjohnston.jpg" /></a></p>
+<p><a href="https://twitter.com/PamJohnston">@PamJohnston</a>, Boston</p>
+<p>website: <a href="http://www.pbs.org/frontline/"><a href="http://www.pbs.org/frontline/"><a href="http://www.pbs.org/frontline/">http://www.pbs.org/frontline/</a></a></a> </p>
+<p>Sr. director of audience development @FRONTLINEpbs Stay Smart. Watch #FRONTLINEpbs. And of course, listen to @Springsteen. </p>
+<hr />
+<h3 id="thomas-wilburn"><a name="user-content-thomas-wilburn" href="#thomas-wilburn" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Thomas Wilburn</h3>
+<h4 id="building-news-apps-for-humanity"><a href="http://srccon.org/sessions/#proposal-312019">Building news apps for humanity</a></h4>
+<p><a href="https://twitter.com/thomaswilburn"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/thomas_wilburn.jpg" /></a></p>
+<p><a href="https://twitter.com/thomaswilburn">@thomaswilburn</a>, Seattle, WA</p>
+<p>website: <a href="http://thomaswilburn.net"><a href="http://thomaswilburn.net"><a href="http://thomaswilburn.net">http://thomaswilburn.net</a></a></a> </p>
+<p>Small-batch, artisanal data journalism for @seattletimes. West Coast operations for @urbanartistry. PGP key: <a href="https://keybase.io/thomaswilburn">https://keybase.io/thomaswilburn</a>  | 0xFAAEB7148B00EDC2 </p>
+<hr />
+<h3 id="kate-schimel"><a name="user-content-kate-schimel" href="#kate-schimel" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Kate Schimel</h3>
+<h4 id="can-we-pair-program-the-news"><a href="http://srccon.org/sessions/#proposal-318666">Can We Pair Program The News?</a></h4>
+<p><a href="https://twitter.com/kateschimel"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/kate_schimel.jpg" /></a></p>
+<p><a href="https://twitter.com/kateschimel">@kateschimel</a>, Seattle, WA</p>
+<p>website: <a href="http://kateschimel.com"><a href="http://kateschimel.com"><a href="http://kateschimel.com">http://kateschimel.com</a></a></a> </p>
+<p>Assistant editor @highcountrynews. I write about education/climate/communities. Transparency nut/skier/mtn trudger. Tell me what matters most to you. </p>
+<hr />
+<h3 id="jordan-wirfs-brock"><a name="user-content-jordan-wirfs-brock" href="#jordan-wirfs-brock" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Jordan Wirfs-Brock</h3>
+<h4 id="can-we-pair-program-the-news_1"><a href="http://srccon.org/sessions/#proposal-318666">Can We Pair Program The News?</a></h4>
+<p><a href="https://twitter.com/jordanwb"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/jordan_wirfsbrock.jpeg" /></a></p>
+<p><a href="https://twitter.com/jordanwb">@jordanwb</a>, Colorado, USA</p>
+<p>website: <a href="http://jordanwb.com"><a href="http://jordanwb.com"><a href="http://jordanwb.com">http://jordanwb.com</a></a></a> </p>
+<p>Data journalist/dataviz geek at @InsideEnergyNow, trail + relay running addict, brewer of beer, maker of maps, writer, champion eater of ice cream + sardines. </p>
+<hr />
+<h3 id="geoff-hing"><a name="user-content-geoff-hing" href="#geoff-hing" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Geoff Hing</h3>
+<h4 id="data-analysis-n-ways"><a href="http://srccon.org/sessions/#proposal-318397">Data analysis N ways</a></h4>
+<p><a href="https://twitter.com/geoffhing"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/geoff_hing.jpg" /></a></p>
+<p><a href="https://twitter.com/geoffhing">@geoffhing</a>, Chicago, IL</p>
+<p>website: <a href="http://geoff.terrorware.com"><a href="http://geoff.terrorware.com"><a href="http://geoff.terrorware.com">http://geoff.terrorware.com</a></a></a> </p>
+<p>Midwestern cultural worker and technologist </p>
+<hr />
+<h3 id="stefan-wehrmeyer"><a name="user-content-stefan-wehrmeyer" href="#stefan-wehrmeyer" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Stefan Wehrmeyer</h3>
+<h4 id="data-analysis-n-ways_1"><a href="http://srccon.org/sessions/#proposal-318397">Data analysis N ways</a></h4>
+<p><a href="https://twitter.com/stefanwehrmeyer"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/stefan_wehrmeyer.jpeg" /></a></p>
+<p><a href="https://twitter.com/stefanwehrmeyer">@stefanwehrmeyer</a>, Berlin</p>
+<p>website: <a href="http://stefanwehrmeyer.com"><a href="http://stefanwehrmeyer.com"><a href="http://stefanwehrmeyer.com">http://stefanwehrmeyer.com</a></a></a> </p>
+<p><a href="http://Correctiv.org">http://Correctiv.org</a> , FragDenStaat.de, OKFN.de </p>
+<hr />
+<h3 id="michael-corey"><a name="user-content-michael-corey" href="#michael-corey" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Michael Corey</h3>
+<h4 id="data-sonification-piano-bar"><a href="http://srccon.org/sessions/#proposal-318330">Data sonification piano bar</a></h4>
+<p><a href="https://twitter.com/mikejcorey"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/michael_corey.jpg" /></a></p>
+<p><a href="https://twitter.com/mikejcorey">@mikejcorey</a>, Emeryville, California USA</p>
+<p>website: <a href="http://mikejcorey.com"><a href="http://mikejcorey.com"><a href="http://mikejcorey.com">http://mikejcorey.com</a></a></a> </p>
+<p>Senior News Applications Developer for @Reveal. I love mapping, data journalism and interface design. History = food = good. </p>
+<hr />
+<h3 id="neena-satija"><a name="user-content-neena-satija" href="#neena-satija" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Neena Satija</h3>
+<h4 id="data-sonification-piano-bar_1"><a href="http://srccon.org/sessions/#proposal-318330">Data sonification piano bar</a></h4>
+<p><a href="https://twitter.com/neenareports"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/neena_satija.jpg" /></a></p>
+<p><a href="https://twitter.com/neenareports">@neenareports</a>, Austin, TX</p>
+<p>website: <a href="http://neenasatija.wordpress.com"><a href="http://neenasatija.wordpress.com"><a href="http://neenasatija.wordpress.com">http://neenasatija.wordpress.com</a></a></a> </p>
+<p>Investigative radio reporter and producer for @texastribune and @reveal (<a href="http://www.revealnews.org">http://www.revealnews.org</a> ). Recovering environmental reporter. </p>
+<hr />
+<h3 id="tara-adiseshan"><a name="user-content-tara-adiseshan" href="#tara-adiseshan" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Tara Adiseshan</h3>
+<h4 id="designing-participatory-algorithmic-decision-making-processes"><a href="http://srccon.org/sessions/#proposal-318355">Designing Participatory Algorithmic Decision-Making Processes</a></h4>
+<p><a href="https://twitter.com/taraadiseshan"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/tara_adiseshan.jpg" /></a></p>
+<p><a href="https://twitter.com/taraadiseshan">@taraadiseshan</a>, </p>
+<p>website: <a href="http://www.taraadiseshan.com"><a href="http://www.taraadiseshan.com"><a href="http://www.taraadiseshan.com">http://www.taraadiseshan.com</a></a></a> </p>
+<p>data science + visualization + UX + activism + digital privacy and security. past: @opennews fellow at @coralproject, @autodesk, @stanford. they/them </p>
+<hr />
+<h3 id="immigrant"><a name="user-content-immigrant" href="#immigrant" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Immigrant</h3>
+<h4 id="designing-participatory-algorithmic-decision-making-processes_1"><a href="http://srccon.org/sessions/#proposal-318355">Designing Participatory Algorithmic Decision-Making Processes</a></h4>
+<p><a href="https://twitter.com/hyper_linda"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/immigrant.jpg" /></a></p>
+<p><a href="https://twitter.com/hyper_linda">@hyper_linda</a>, Hackney, London</p>
+<p>website: <a href="http://lindasandvik.info/"><a href="http://lindasandvik.info/"><a href="http://lindasandvik.info/">http://lindasandvik.info/</a></a></a> </p>
+<p>~<em>creative technologist</em>~</p>
+<p>Knight-Mozilla fellow 2015. Wannabe MacGyver. Rebel. </p>
+<hr />
+<h3 id="josh-laincz"><a name="user-content-josh-laincz" href="#josh-laincz" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Josh Laincz</h3>
+<h4 id="designing-brands-at-scale"><a href="http://srccon.org/sessions/#proposal-318550">Designing brands at scale</a></h4>
+<p><a href="https://twitter.com/zohf"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/josh_laincz.jpg" /></a></p>
+<p><a href="https://twitter.com/zohf">@zohf</a>, Philadelphia-ish</p>
+<p>website: <a href="http://www.taco.design"><a href="http://www.taco.design"><a href="http://www.taco.design">http://www.taco.design</a></a></a> </p>
+<p>Designer, developer, dad.<br />
+Principal Designer @voxmediainc. </p>
+<hr />
+<h3 id="georgia-cowley"><a name="user-content-georgia-cowley" href="#georgia-cowley" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Georgia Cowley</h3>
+<h4 id="designing-brands-at-scale_1"><a href="http://srccon.org/sessions/#proposal-318550">Designing brands at scale</a></h4>
+<p><a href="https://twitter.com/hellogeorgia"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/georgia_cowley.jpg" /></a></p>
+<p><a href="https://twitter.com/hellogeorgia">@hellogeorgia</a>, dc</p>
+<p>website: <a href="None">None</a> </p>
+<p>design director @voxmediainc. </p>
+<hr />
+<h3 id="gboysun"><a name="user-content-gboysun" href="#gboysun" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>gboysun</h3>
+<h4 id="every-day-im-juggling-managing-managers-peer-expectations-and-your-own-project-ideas"><a href="http://srccon.org/sessions/#proposal-318061">Every day I&rsquo;m juggling: Managing managers, peer expectations, and your own project ideas</a></h4>
+<p><a href="https://twitter.com/gboysun"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/gboysun.jpg" /></a></p>
+<p><a href="https://twitter.com/gboysun">@gboysun</a>, Spokane, WA</p>
+<p>website: <a href="None">None</a> </p>
+<p>Online developer by day. Wife and mom by morning, day and night. </p>
+<hr />
+<h3 id="justin-myers"><a name="user-content-justin-myers" href="#justin-myers" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Justin Myers</h3>
+<h4 id="every-day-im-juggling-managing-managers-peer-expectations-and-your-own-project-ideas_1"><a href="http://srccon.org/sessions/#proposal-318061">Every day I&rsquo;m juggling: Managing managers, peer expectations, and your own project ideas</a></h4>
+<p><a href="https://twitter.com/myersjustinc"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/justin_myers.png" /></a></p>
+<p><a href="https://twitter.com/myersjustinc">@myersjustinc</a>, </p>
+<p>website: <a href="http://www.justinmyers.net/"><a href="http://www.justinmyers.net/"><a href="http://www.justinmyers.net/">http://www.justinmyers.net/</a></a></a> </p>
+<p>Journalist, baker, programmer, crocheter. News automation editor @AP. Knows where his towel is. Married to @JuliaJRH. <a href="mailto:justin@justinmyers.net">justin@justinmyers.net</a> </p>
+<hr />
+<h3 id="jason-alcorn"><a name="user-content-jason-alcorn" href="#jason-alcorn" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Jason Alcorn</h3>
+<h4 id="expanding-the-team-parenthood-in-the-news-business"><a href="http://srccon.org/sessions/#proposal-318303">Expanding the Team: Parenthood in the News Business</a></h4>
+<p><a href="https://twitter.com/jasonalcorn"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/jason_alcorn.jpg" /></a></p>
+<p><a href="https://twitter.com/jasonalcorn">@jasonalcorn</a>, Los Angeles</p>
+<p>website: <a href="http://jasalc.com"><a href="http://jasalc.com"><a href="http://jasalc.com">http://jasalc.com</a></a></a> </p>
+<p>consultant to newsrooms, foundations and nonprofits. building an informed citizenry. before: @invw @columbiajourn </p>
+<hr />
+<h3 id="david-yee"><a name="user-content-david-yee" href="#david-yee" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>David Yee</h3>
+<h4 id="get-you-a-cms-that-can-do-both-platforms-the-web-and-storytelling-imperatives"><a href="http://srccon.org/sessions/#proposal-318698">Get you a CMS that can do both: Platforms, the web, and storytelling imperatives</a></h4>
+<p><a href="https://twitter.com/tangentialism"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/david_yee.jpeg" /></a></p>
+<p><a href="https://twitter.com/tangentialism">@tangentialism</a>, </p>
+<p>website: <a href="http://tangentialism.com"><a href="http://tangentialism.com"><a href="http://tangentialism.com">http://tangentialism.com</a></a></a> </p>
+<p>Director of Platform Engineering at @voxmedia. 100% cheeseburger / ice cream. Tech team whisperer and moderate-to-semi-frequent museum-goer. </p>
+<hr />
+<h3 id="robin-kwong"><a name="user-content-robin-kwong" href="#robin-kwong" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Robin Kwong</h3>
+<h4 id="sessions"><a name="user-content-sessions" href="#sessions" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>session(s):</h4>
+<p><a href="https://twitter.com/RobinKwong"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/robin_kwong.jpeg" /></a></p>
+<p><a href="https://twitter.com/RobinKwong">@RobinKwong</a>, London</p>
+<p>website: <a href="http://www.robinkwong.com"><a href="http://www.robinkwong.com"><a href="http://www.robinkwong.com">http://www.robinkwong.com</a></a></a> </p>
+<p>Special Projects Editor @FT bringing project management &amp; design thinking into newsrooms. @ftdata alum. Former tech editor, reporter in Taiwan &amp; HK. altMBA5 </p>
+<hr />
+<h3 id="darius-kazemi"><a name="user-content-darius-kazemi" href="#darius-kazemi" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Darius Kazemi</h3>
+<h4 id="giffable-audio-and-the-social-web"><a href="http://srccon.org/sessions/#proposal-318319">Giffable Audio and the Social Web</a></h4>
+<p><a href="https://twitter.com/tinysubversions"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/darius_kazemi.jpg" /></a></p>
+<p><a href="https://twitter.com/tinysubversions">@tinysubversions</a>, Portland, OR</p>
+<p>website: <a href="http://tinysubversions.com"><a href="http://tinysubversions.com"><a href="http://tinysubversions.com">http://tinysubversions.com</a></a></a> </p>
+<p>I make weird internet art. Latest project: @glitchlogos! Glitching up corporate vector logos. Worker-owner at @feeltraincoop #WHNBM </p>
+<hr />
+<h3 id="jane-friendhoff"><a name="user-content-jane-friendhoff" href="#jane-friendhoff" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>jane frie(n)dhoff</h3>
+<h4 id="sessions_1"><a name="user-content-sessions_1" href="#sessions_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>session(s):</h4>
+<p><a href="https://twitter.com/JFriedhoff"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/jane_friendhoff.jpg" /></a></p>
+<p><a href="https://twitter.com/JFriedhoff">@JFriedhoff</a>, github.com/friej715</p>
+<p>website: <a href="http://janefriedhoff.com/"><a href="http://janefriedhoff.com/"><a href="http://janefriedhoff.com/">http://janefriedhoff.com/</a></a></a> </p>
+<p>riot grrl gamedev | creative researcher @The_O_C_R | alumna @nytimes | @slamcityoracles | @codeliberation | @DBAArcade | opinions don&rsquo;t represent my employer </p>
+<hr />
+<h3 id="julia-smith"><a name="user-content-julia-smith" href="#julia-smith" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Julia Smith</h3>
+<h4 id="give-and-receive-can-we-strengthen-our-community-through-remote-mentorship-and-office-hours"><a href="http://srccon.org/sessions/#proposal-318413">Give and Receive: Can we strengthen our community through remote mentorship and office hours?</a></h4>
+<p><a href="https://twitter.com/julia67"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/julia_smith.jpg" /></a></p>
+<p><a href="https://twitter.com/julia67">@julia67</a>, Omaha, NE</p>
+<p>website: <a href="http://julia-smith.com"><a href="http://julia-smith.com"><a href="http://julia-smith.com">http://julia-smith.com</a></a></a> </p>
+<p>news+design+code for @INN, former @OpenNews fellow for @Reveal </p>
+<hr />
+<h3 id="kelsey-scherer"><a name="user-content-kelsey-scherer" href="#kelsey-scherer" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Kelsey Scherer</h3>
+<h4 id="how-can-teams-build-a-consistent-culture-of-documentation"><a href="http://srccon.org/sessions/#proposal-317439">How can teams build a consistent culture of documentation?</a></h4>
+<p><a href="https://twitter.com/kelsa_"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/kelsey_scherer.jpg" /></a></p>
+<p><a href="https://twitter.com/kelsa_">@kelsa_</a>, new york city</p>
+<p>website: <a href="http://www.kelseyscherer.com/"><a href="http://www.kelseyscherer.com/"><a href="http://www.kelseyscherer.com/">http://www.kelseyscherer.com/</a></a></a> </p>
+<p>senior designer @voxproduct / @voxmediainc </p>
+<hr />
+<h3 id="lauren-rabaino"><a name="user-content-lauren-rabaino" href="#lauren-rabaino" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Lauren Rabaino</h3>
+<h4 id="how-can-teams-build-a-consistent-culture-of-documentation_1"><a href="http://srccon.org/sessions/#proposal-317439">How can teams build a consistent culture of documentation?</a></h4>
+<p><a href="https://twitter.com/laurenrabaino"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/lauren_rabaino.jpg" /></a></p>
+<p><a href="https://twitter.com/laurenrabaino">@laurenrabaino</a>, New York City</p>
+<p>website: <a href="http://www.laurenrabaino.com"><a href="http://www.laurenrabaino.com"><a href="http://www.laurenrabaino.com">http://www.laurenrabaino.com</a></a></a> </p>
+<p>director of editorial products at @voxmediainc / @voxproduct. journalism + design + technology + revenue </p>
+<hr />
+<h3 id="neil-bedi"><a name="user-content-neil-bedi" href="#neil-bedi" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Neil Bedi</h3>
+<h4 id="how-can-we-help-save-photojournalism"><a href="http://srccon.org/sessions/#proposal-318587">How can we help save photojournalism?</a></h4>
+<p><a href="https://twitter.com/_neilbedi"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/neil_bedi.jpeg" /></a></p>
+<p><a href="https://twitter.com/_neilbedi">@_neilbedi</a>, New York, NY</p>
+<p>website: <a href="https://neilbedi.com"><a href="https://neilbedi.com"><a href="https://neilbedi.com">https://neilbedi.com</a></a></a> </p>
+<p>Developer experimenting with journalism. Former data editor, photo editor and reporter @dailybruin, @_thestack. </p>
+<hr />
+<h3 id="ariana-giorgi"><a name="user-content-ariana-giorgi" href="#ariana-giorgi" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Ariana Giorgi</h3>
+<h4 id="how-can-we-peer-review-our-data-stories"><a href="http://srccon.org/sessions/#proposal-316702">How can we peer review our data stories?</a></h4>
+<p><a href="https://twitter.com/ArianaNGiorgi"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/ariana_giorgi.jpg" /></a></p>
+<p><a href="https://twitter.com/ArianaNGiorgi">@ArianaNGiorgi</a>, Washington, DC</p>
+<p>website: <a href="http://arianagiorgi.com"><a href="http://arianagiorgi.com"><a href="http://arianagiorgi.com">http://arianagiorgi.com</a></a></a> </p>
+<p>Data reporter/developer for @chrondata. Former graphics intern at @bizweekgraphics. Math enthusiast. </p>
+<hr />
+<h3 id="christine-zhang"><a name="user-content-christine-zhang" href="#christine-zhang" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Christine Zhang</h3>
+<h4 id="how-can-we-peer-review-our-data-stories_1"><a href="http://srccon.org/sessions/#proposal-316702">How can we peer review our data stories?</a></h4>
+<p><a href="https://twitter.com/christinezhang"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/christine_zhang.jpg" /></a></p>
+<p><a href="https://twitter.com/christinezhang">@christinezhang</a>, Los Angeles, CA</p>
+<p>website: <a href="https://plotswithchristine.wordpress.com/"><a href="https://plotswithchristine.wordpress.com/"><a href="https://plotswithchristine.wordpress.com/">https://plotswithchristine.wordpress.com/</a></a></a> </p>
+<p>@LATdatadesk @latimes @opennews. previously @BrookingsGlobal. i think (&amp; tweet) for myself. email me: <a href="mailto:christine.zhang@latimes.com">christine.zhang@latimes.com</a> </p>
+<hr />
+<h3 id="bo-peng"><a name="user-content-bo-peng" href="#bo-peng" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Bo Peng</h3>
+<h4 id="how-do-we-convey-technical-ideas-without-dumbing-things-down"><a href="http://srccon.org/sessions/#proposal-315684">How do we convey technical ideas without dumbing things down?</a></h4>
+<p><a href="https://twitter.com/bo_p"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/bo_peng.jpeg" /></a></p>
+<p><a href="https://twitter.com/bo_p">@bo_p</a>, Chicago, IL</p>
+<p>website: <a href="http://www.datascopeanalytics.com"><a href="http://www.datascopeanalytics.com"><a href="http://www.datascopeanalytics.com">http://www.datascopeanalytics.com</a></a></a> </p>
+<p>Partner &amp; data scientist @DsAtweet, former @thisismetis instructor. I think/tweet about data, women in tech, Chicago, Canadianisms &hellip; this set is incomplete. </p>
+<hr />
+<h3 id="justin-reese"><a name="user-content-justin-reese" href="#justin-reese" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Justin Reese</h3>
+<h4 id="how-to-be-a-guest-chef-at-someones-house-party-or-being-a-responsible-embed-provider"><a href="http://srccon.org/sessions/#proposal-317747">How to be a guest chef at someone&rsquo;s house party, or, Being a responsible embed provider</a></h4>
+<p><a href="https://twitter.com/reefdog"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/justin_reese.jpg" /></a></p>
+<p><a href="https://twitter.com/reefdog">@reefdog</a>, Dust/Texas</p>
+<p>website: <a href="http://justinreese.com/"><a href="http://justinreese.com/"><a href="http://justinreese.com/">http://justinreese.com/</a></a></a> </p>
+<p>@DocumentCloud. Plot mechanic. Lossily compressed. Still talking. Tweets reflect the values and opinions of The Coca-Cola Company. </p>
+<hr />
+<h3 id="arjuna-soriano"><a name="user-content-arjuna-soriano" href="#arjuna-soriano" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Arjuna Soriano</h3>
+<h4 id="sessions_2"><a name="user-content-sessions_2" href="#sessions_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>session(s):</h4>
+<p><a href="https://twitter.com/ArjunaSoriano"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/arjuna_soriano.jpg" /></a></p>
+<p><a href="https://twitter.com/ArjunaSoriano">@ArjunaSoriano</a>, Los Angeles</p>
+<p>website: <a href="http://arjunasoriano.com"><a href="http://arjunasoriano.com"><a href="http://arjunasoriano.com">http://arjunasoriano.com</a></a></a> </p>
+<p>News developer for @marketplace, @medillschool alum and @habiarts member. </p>
+<hr />
+<h3 id="pietro"><a name="user-content-pietro" href="#pietro" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Pietro</h3>
+<h4 id="how-to-craft-compelling-stories-out-of-video-interviews"><a href="http://srccon.org/sessions/#proposal-317919">How to craft compelling stories out of video interviews?</a></h4>
+<p><a href="https://twitter.com/pietropassarell"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/pietro.png" /></a></p>
+<p><a href="https://twitter.com/pietropassarell">@pietropassarell</a>, London</p>
+<p>website: <a href="http://www.pietropassarelli.com"><a href="http://www.pietropassarelli.com"><a href="http://www.pietropassarelli.com">http://www.pietropassarelli.com</a></a></a> </p>
+<p>Developer/Documentary film-maker. &lsquo;Video production and software development are converging&rsquo;. <a href="http://times.github.io/quickQuote/">http://times.github.io/quickQuote/</a>  @opennews fellow @VoxProduct. </p>
+<hr />
+<h3 id="allison-mccartney"><a name="user-content-allison-mccartney" href="#allison-mccartney" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Allison McCartney</h3>
+<h4 id="illustrating-investigations-creating-compelling-visuals-for-abstract-stories"><a href="http://srccon.org/sessions/#proposal-318582">Illustrating Investigations: Creating compelling visuals for abstract stories</a></h4>
+<p><a href="https://twitter.com/anmccartney"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/allison_mccartney.jpeg" /></a></p>
+<p><a href="https://twitter.com/anmccartney">@anmccartney</a>, San Francisco, CA</p>
+<p>website: <a href="None">None</a> </p>
+<p>Amateur shapeshifter. Currently at @BrownInstitute and @Reveal. </p>
+<hr />
+<h3 id="dolly"><a name="user-content-dolly" href="#dolly" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Dolly</h3>
+<h4 id="illustrating-investigations-creating-compelling-visuals-for-abstract-stories_1"><a href="http://srccon.org/sessions/#proposal-318582">Illustrating Investigations: Creating compelling visuals for abstract stories</a></h4>
+<p><a href="https://twitter.com/dollyli"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/dolly.jpeg" /></a></p>
+<p><a href="https://twitter.com/dollyli">@dollyli</a>, Oakland, CA</p>
+<p>website: <a href="http://dollyli.com"><a href="http://dollyli.com"><a href="http://dollyli.com">http://dollyli.com</a></a></a> </p>
+<p>visual journalist &amp; illustrator. makin it rain charts, infogifs, and doodles at @ajplus &amp; @ajplusespanol. </p>
+<hr />
+<h3 id="gaba"><a name="user-content-gaba" href="#gaba" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>gaba</h3>
+<h4 id="install-party-the-coral-project"><a href="http://srccon.org/sessions/#proposal-317495">Install Party: The Coral Project</a></h4>
+<p><a href="https://twitter.com/gaba"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/gaba.jpg" /></a></p>
+<p><a href="https://twitter.com/gaba">@gaba</a>, MVD - PDX - BAIRES</p>
+<p>website: <a href="http://gabrielarodriguez.org"><a href="http://gabrielarodriguez.org"><a href="http://gabrielarodriguez.org">http://gabrielarodriguez.org</a></a></a> </p>
+<p>programmer / queer / feminist / floss  / media / open data / security / spanglish - Software Developer at The Coral Project (Mozilla Foundation) </p>
+<hr />
+<h3 id="jde"><a name="user-content-jde" href="#jde" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>jde</h3>
+<h4 id="install-party-the-coral-project_1"><a href="http://srccon.org/sessions/#proposal-317495">Install Party: The Coral Project</a></h4>
+<p><a href="https://twitter.com/daviderwin"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/jde.jpeg" /></a></p>
+<p><a href="https://twitter.com/daviderwin">@daviderwin</a>, New York City</p>
+<p>website: <a href="http://coralproject.net"><a href="http://coralproject.net"><a href="http://coralproject.net">http://coralproject.net</a></a></a> </p>
+<p>Working on @coralproject by day, kid trampoline by night, bass twanger for <a href="http://zindagiband.com">http://zindagiband.com</a>  otherwise </p>
+<hr />
+<h3 id="william-wolfe-wylie"><a name="user-content-william-wolfe-wylie" href="#william-wolfe-wylie" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>William Wolfe-Wylie</h3>
+<h4 id="keeping-people-at-the-forefront-of-data-stories"><a href="http://srccon.org/sessions/#proposal-318535">Keeping people at the forefront of data stories</a></h4>
+<p><a href="https://twitter.com/wolfewylie"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/william_wolfewylie.jpg" /></a></p>
+<p><a href="https://twitter.com/wolfewylie">@wolfewylie</a>, Canada</p>
+<p>website: <a href="http://www.wolfewylie.com"><a href="http://www.wolfewylie.com"><a href="http://www.wolfewylie.com">http://www.wolfewylie.com</a></a></a> </p>
+<p>I code internet @CBCNews, teach internet @CentennialJourn and @MunkSchool, mentor internet @learningCode, and ride my bike in Toronto. <a href="mailto:william@wolfewylie.com">william@wolfewylie.com</a> </p>
+<hr />
+<h3 id="erin-kissane"><a name="user-content-erin-kissane" href="#erin-kissane" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Erin Kissane</h3>
+<h4 id="lets-all-be-terrible-at-things-together"><a href="http://srccon.org/sessions/#proposal-318534">Let&rsquo;s All Be Terrible at Things Together</a></h4>
+<p><a href="https://twitter.com/kissane"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/erin_kissane.jpg" /></a></p>
+<p><a href="https://twitter.com/kissane">@kissane</a>, Brooklyn, yes, hush.</p>
+<p>website: <a href="http://incisive.nu"><a href="http://incisive.nu"><a href="http://incisive.nu">http://incisive.nu</a></a></a> </p>
+<p>Working on code in journalism with @OpenNews + @Source + @SRCCON. Changing lanes. <a href="https://tinyletter.com/holdfast">https://tinyletter.com/holdfast</a>  </p>
+<hr />
+<h3 id="ingrid-burrington"><a name="user-content-ingrid-burrington" href="#ingrid-burrington" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Ingrid Burrington</h3>
+<h4 id="lets-all-be-terrible-at-things-together_1"><a href="http://srccon.org/sessions/#proposal-318534">Let&rsquo;s All Be Terrible at Things Together</a></h4>
+<p><a href="https://twitter.com/lifewinning"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/ingrid_burrington.jpg" /></a></p>
+<p><a href="https://twitter.com/lifewinning">@lifewinning</a>, A Small Island Near America</p>
+<p>website: <a href="http://lifewinning.com"><a href="http://lifewinning.com"><a href="http://lifewinning.com">http://lifewinning.com</a></a></a> </p>
+<p>Look, I&rsquo;m just a person. Well, also a person with a book coming out in August. <a href="http://www.mhpbooks.com/books/networks-of-new-york/">http://www.mhpbooks.com/books/networks-of-new-york/</a> … </p>
+<hr />
+<h3 id="sasha-koren"><a name="user-content-sasha-koren" href="#sasha-koren" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Sasha Koren</h3>
+<h4 id="sessions_3"><a name="user-content-sessions_3" href="#sessions_3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>session(s):</h4>
+<p><a href="https://twitter.com/SashaK"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/sasha_koren.jpeg" /></a></p>
+<p><a href="https://twitter.com/SashaK">@SashaK</a>, NYC</p>
+<p>website: <a href="http://bit.ly/1QhdwtQ"><a href="http://bit.ly/1QhdwtQ"><a href="http://bit.ly/1QhdwtQ">http://bit.ly/1QhdwtQ</a></a></a> </p>
+<p>Editor, @GdnMobileLab. Formerly: lots of digital news roles @nytimes Co-keeper of small domestic zoo. Uptowner. </p>
+<hr />
+<h3 id="alastair-coote"><a name="user-content-alastair-coote" href="#alastair-coote" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Alastair Coote</h3>
+<h4 id="news-mobile-and-privacy-wheres-the-line-between-convenient-and-creepy"><a href="http://srccon.org/sessions/#proposal-318635">News, mobile and privacy: Where’s the line between convenient and creepy?</a></h4>
+<p><a href="https://twitter.com/_alastair"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/alastair_coote.jpg" /></a></p>
+<p><a href="https://twitter.com/_alastair">@_alastair</a>, New York, USA</p>
+<p>website: <a href="None">None</a> </p>
+<p>Doing stuff with code at @gdnmobilelab. Previously @nytimes. British born, living in New York (after some stops in Wales and Vancouver). PGP 0x65313bae21b0bb85 </p>
+<hr />
+<h3 id="steph-yiu"><a name="user-content-steph-yiu" href="#steph-yiu" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Steph Yiu</h3>
+<h4 id="omgwtfbbq-breaking-news-without-breaking-your-site"><a href="http://srccon.org/sessions/#proposal-318565">OMGWTFBBQ: Breaking news without breaking your site</a></h4>
+<p><a href="https://twitter.com/crushgear"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/steph_yiu.jpg" /></a></p>
+<p><a href="https://twitter.com/crushgear">@crushgear</a>, Cambridge, MA</p>
+<p>website: <a href="http://stephyiu.com"><a href="http://stephyiu.com"><a href="http://stephyiu.com">http://stephyiu.com</a></a></a> </p>
+<p>Works at @WordPressVIP. Formerly @TestKitchen, Chicago Tribune @redeyechicago, @BostonGlobe. Medill grad. I make <a href="http://denizenmag.com">http://denizenmag.com</a>  </p>
+<hr />
+<h3 id="jeremy-bowers"><a name="user-content-jeremy-bowers" href="#jeremy-bowers" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Jeremy Bowers</h3>
+<h4 id="open-sourcing-and-you"><a href="http://srccon.org/sessions/#proposal-318023">Open Sourcing And You</a></h4>
+<p><a href="https://twitter.com/jeremybowers"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/jeremy_bowers.jpg" /></a></p>
+<p><a href="https://twitter.com/jeremybowers">@jeremybowers</a>, Washington, D.C.</p>
+<p>website: <a href="https://jeremybowers.com/"><a href="https://jeremybowers.com/"><a href="https://jeremybowers.com/">https://jeremybowers.com/</a></a></a> </p>
+<p>Elections, Congress, SCOTUS at @nytinteractive. Priors: @nprviz, @washingtonpost, @tb_times. Cook. Oenophile. #TheSqueezle, #TheGiblette &amp; @beckybowers. </p>
+<hr />
+<h3 id="dan-sinker"><a name="user-content-dan-sinker" href="#dan-sinker" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>dan sinker</h3>
+<h4 id="peer-critique-for-news-nerds"><a href="http://srccon.org/sessions/#proposal-318426">Peer Critique for News Nerds</a></h4>
+<p><a href="https://twitter.com/dansinker"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/dan_sinker.jpeg" /></a></p>
+<p><a href="https://twitter.com/dansinker">@dansinker</a>, Chicago</p>
+<p>website: <a href="http://dansinker.com"><a href="http://dansinker.com"><a href="http://dansinker.com">http://dansinker.com</a></a></a> </p>
+<p>I make stuff. Heading up the Knight-Mozilla OpenNews project, author of @MayorEmanuel, founder of Punk Planet magazine (RIP), Tacofancy, goat ambassador. </p>
+<hr />
+<h3 id="scottpham"><a name="user-content-scottpham" href="#scottpham" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>scottpham</h3>
+<h4 id="platform-constraintswhen-to-fight-and-when-to-admit-defeat"><a href="http://srccon.org/sessions/#proposal-318561">Platform Constraints—When to Fight and When to Admit Defeat</a></h4>
+<p><a href="https://twitter.com/scottpham"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/scottpham.jpg" /></a></p>
+<p><a href="https://twitter.com/scottpham">@scottpham</a>, California</p>
+<p>website: <a href="http://www.scottpham.com"><a href="http://www.scottpham.com"><a href="http://www.scottpham.com">http://www.scottpham.com</a></a></a> </p>
+<p>Digital journalist. Former Drone Guy. Podcast enthusiast. Data Journalist at @CIRonline </p>
+<hr />
+<h3 id="daniel-wood"><a name="user-content-daniel-wood" href="#daniel-wood" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Daniel Wood</h3>
+<h4 id="sessions_4"><a name="user-content-sessions_4" href="#sessions_4" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>session(s):</h4>
+<p><a href="https://twitter.com/DanielPWWood"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/daniel_wood.jpg" /></a></p>
+<p><a href="https://twitter.com/DanielPWWood">@DanielPWWood</a>, Washington DC</p>
+<p>website: <a href="http://energy.gov/maps"><a href="http://energy.gov/maps"><a href="http://energy.gov/maps">http://energy.gov/maps</a></a></a> </p>
+<p>Maps and Charts @energy. Follower of Christ. Philly Native. </p>
+<hr />
+<h3 id="alan-palazzolo"><a name="user-content-alan-palazzolo" href="#alan-palazzolo" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Alan Palazzolo</h3>
+<h4 id="playtime-in-ludicrous-speed"><a href="http://srccon.org/sessions/#proposal-317464">Playtime (in ludicrous speed)</a></h4>
+<p><a href="https://twitter.com/zzolo"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/alan_palazzolo.jpg" /></a></p>
+<p><a href="https://twitter.com/zzolo">@zzolo</a>, Minneapolis, MN, USA</p>
+<p>website: <a href="http://zzolo.org"><a href="http://zzolo.org"><a href="http://zzolo.org">http://zzolo.org</a></a></a> </p>
+<p>Developer at WNYC, making the news visual and data-rich; MinnPost and Code for America alumn; lover of all things open source and free, especially the sky. </p>
+<hr />
+<h3 id="clarisa-diaz"><a name="user-content-clarisa-diaz" href="#clarisa-diaz" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Clarisa Diaz</h3>
+<h4 id="sessions_5"><a name="user-content-sessions_5" href="#sessions_5" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>session(s):</h4>
+<p><a href="https://twitter.com/Clarii_D"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/clarisa_diaz.jpeg" /></a></p>
+<p><a href="https://twitter.com/Clarii_D">@Clarii_D</a>, </p>
+<p>website: <a href="http://www.clarisadiaz.com"><a href="http://www.clarisadiaz.com"><a href="http://www.clarisadiaz.com">http://www.clarisadiaz.com</a></a></a> </p>
+<p>None </p>
+<hr />
+<h3 id="andrew-leimdorfer"><a name="user-content-andrew-leimdorfer" href="#andrew-leimdorfer" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Andrew Leimdorfer</h3>
+<h4 id="sessions_6"><a name="user-content-sessions_6" href="#sessions_6" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>session(s):</h4>
+<p><a href="https://twitter.com/Leimdorfer"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/andrew_leimdorfer.jpeg" /></a></p>
+<p><a href="https://twitter.com/Leimdorfer">@Leimdorfer</a>, London</p>
+<p>website: <a href="http://www.leimdorfer.co.uk"><a href="http://www.leimdorfer.co.uk"><a href="http://www.leimdorfer.co.uk">http://www.leimdorfer.co.uk</a></a></a> </p>
+<h1 id="tottenham-buenosaires-bbc-media-journalism-data-programming-running-etc-all-opinion-plagued-by-doubt"><a name="user-content-tottenham-buenosaires-bbc-media-journalism-data-programming-running-etc-all-opinion-plagued-by-doubt" href="#tottenham-buenosaires-bbc-media-journalism-data-programming-running-etc-all-opinion-plagued-by-doubt" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Tottenham #BuenosAires #BBC #Media #Journalism #Data #Programming #Running #etc All opinion plagued by doubt</h1>
+<hr />
+<h3 id="annie-daniel"><a name="user-content-annie-daniel" href="#annie-daniel" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Annie Daniel</h3>
+<h4 id="running-undergraduate-internships-that-produce-great-newsroom-developers"><a href="http://srccon.org/sessions/#proposal-318203">Running undergraduate internships that produce great newsroom developers</a></h4>
+<p><a href="https://twitter.com/anieldaniel"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/annie_daniel.jpg" /></a></p>
+<p><a href="https://twitter.com/anieldaniel">@anieldaniel</a>, Austin</p>
+<p>website: <a href="http://annie-daniel.com"><a href="http://annie-daniel.com"><a href="http://annie-daniel.com">http://annie-daniel.com</a></a></a> </p>
+<p>Data &amp; visuals developer at @TexasTribune. Aggressive tar heel. Rory Gilmore Jr. 80% glitter. </p>
+<hr />
+<h3 id="aram-zucker-scharff"><a name="user-content-aram-zucker-scharff" href="#aram-zucker-scharff" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Aram Zucker-Scharff</h3>
+<h4 id="skipping-the-blame-game-and-working-across-teams-to-fix-newsroom-ad-tech"><a href="http://srccon.org/sessions/#proposal-318653">Skipping the blame game and working across teams to fix newsroom Ad Tech</a></h4>
+<p><a href="https://twitter.com/Chronotope"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/aram_zuckerscharff.jpeg" /></a></p>
+<p><a href="https://twitter.com/Chronotope">@Chronotope</a>, NYC, NY</p>
+<p>website: <a href="http://bit.ly/aram"><a href="http://bit.ly/aram"><a href="http://bit.ly/aram">http://bit.ly/aram</a></a></a> </p>
+<p>AramZS elsewhere. Narrative designer, digital tool-maker, obsessive reader. Developer w/ @salon, @pressfwd. Tech solutions for journalism problems. Made a font. </p>
+<hr />
+<h3 id="matt"><a name="user-content-matt" href="#matt" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Matt</h3>
+<h4 id="sometimes-i-sit-and-think-about-evergreen-content-and-sometimes-i-just-sit"><a href="http://srccon.org/sessions/#proposal-318322">Sometimes I Sit and Think About Evergreen Content and Sometimes I Just Sit</a></h4>
+<p><a href="https://twitter.com/mattdennewitz"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/matt.jpg" /></a></p>
+<p><a href="https://twitter.com/mattdennewitz">@mattdennewitz</a>, Chicago</p>
+<p>website: <a href="http://tilde.club/~mdtz"><a href="http://tilde.club/~mdtz"><a href="http://tilde.club/~mdtz">http://tilde.club/~mdtz</a></a></a> </p>
+<p>vp product @pitchfork. i make @beergraphs, @saberarchive / <a href="https://ballsandstrikes.co">https://ballsandstrikes.co</a> . <a href="http://github.com/mattdennewitz">http://github.com/mattdennewitz</a> . opinions mine. </p>
+<hr />
+<h3 id="oo"><a name="user-content-oo" href="#oo" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>ᶘ ᵒ㉨ᵒᶅ</h3>
+<h4 id="sometimes-i-sit-and-think-about-evergreen-content-and-sometimes-i-just-sit_1"><a href="http://srccon.org/sessions/#proposal-318322">Sometimes I Sit and Think About Evergreen Content and Sometimes I Just Sit</a></h4>
+<p><a href="https://twitter.com/donohoe"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/donohoe.jpg" /></a></p>
+<p><a href="https://twitter.com/donohoe">@donohoe</a>, Brooklyn, NY</p>
+<p>website: <a href="http://donohoe.io"><a href="http://donohoe.io"><a href="http://donohoe.io">http://donohoe.io</a></a></a> </p>
+<p>Currently @newyorker Past-life @qz and @nytimes. Retweets suggest VC investments </p>
+<hr />
+<h3 id="gurman-bhatia"><a name="user-content-gurman-bhatia" href="#gurman-bhatia" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Gurman Bhatia</h3>
+<h4 id="sessions_7"><a name="user-content-sessions_7" href="#sessions_7" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>session(s):</h4>
+<p><a href="https://twitter.com/GurmanBhatia"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/gurman_bhatia.jpg" /></a></p>
+<p><a href="https://twitter.com/GurmanBhatia">@GurmanBhatia</a>, Dilli se Amreeka</p>
+<p>website: <a href="http://www.gurmanbhatia.com"><a href="http://www.gurmanbhatia.com"><a href="http://www.gurmanbhatia.com">http://www.gurmanbhatia.com</a></a></a> </p>
+<p>journalism + design + code. @journalsentinel. past: @pbpost, google j-fellow @Poynter, @columbiajourn. PGP: <a href="https://twitter.com/GurmanBhatia/status/644675725044416512">https://twitter.com/GurmanBhatia/status/644675725044416512</a> … <a href="mailto:gurmanbh@gmail.com">gurmanbh@gmail.com</a> </p>
+<hr />
+<h3 id="ted-han"><a name="user-content-ted-han" href="#ted-han" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Ted Han</h3>
+<h4 id="the-ecology-of-newsroom-software"><a href="http://srccon.org/sessions/#proposal-318576">The Ecology of Newsroom Software</a></h4>
+<p><a href="https://twitter.com/knowtheory"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/ted_han.jpg" /></a></p>
+<p><a href="https://twitter.com/knowtheory">@knowtheory</a>, Oakland</p>
+<p>website: <a href="http://blog.knowtheory.net"><a href="http://blog.knowtheory.net"><a href="http://blog.knowtheory.net">http://blog.knowtheory.net</a></a></a> </p>
+<p>Leads @documentcloud engineering. Studied computational linguistics. Married to @crupar. Talks too much.<br />
+ricochet:xpizz2oatwtr2yr4<br />
+<a href="https://keybase.io/knowtheory">https://keybase.io/knowtheory</a>  </p>
+<hr />
+<h3 id="mike-tigas"><a name="user-content-mike-tigas" href="#mike-tigas" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Mike Tigas</h3>
+<h4 id="the-ecology-of-newsroom-software_1"><a href="http://srccon.org/sessions/#proposal-318576">The Ecology of Newsroom Software</a></h4>
+<p><a href="https://twitter.com/mtigas"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/mike_tigas.jpg" /></a></p>
+<p><a href="https://twitter.com/mtigas">@mtigas</a>, NYC via STL &amp; GEG</p>
+<p>website: <a href="https://mike.tig.as/"><a href="https://mike.tig.as/"><a href="https://mike.tig.as/">https://mike.tig.as/</a></a></a> </p>
+<p>hacker-journo at @propublica | core @tabulaPDF dev | tor iOS dev (<a href="http://onionbrowser.com">http://onionbrowser.com</a> ) | @opennews alum | @spocats parent | 0xA993E7156E0E9923 </p>
+<hr />
+<h3 id="sandhya-kambhampati"><a name="user-content-sandhya-kambhampati" href="#sandhya-kambhampati" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Sandhya Kambhampati</h3>
+<h4 id="the-good-and-bad-of-newsroom-on-boarding-processes-and-how-can-we-make-them-better"><a href="http://srccon.org/sessions/#proposal-317007">The good and bad of newsroom on-boarding processes (and how can we make them better)</a></h4>
+<p><a href="https://twitter.com/sandhya__k"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/sandhya_kambhampati.jpg" /></a></p>
+<p><a href="https://twitter.com/sandhya__k">@sandhya__k</a>, Berlin, Germany</p>
+<p>website: <a href="http://www.sandhyakambhampati.com"><a href="http://www.sandhyakambhampati.com"><a href="http://www.sandhyakambhampati.com">http://www.sandhyakambhampati.com</a></a></a> </p>
+<p>Knight-Mozilla @opennews fellow @Correctiv_org. Likes stats, public records &amp; ice cream. Blog:<a href="http://bit.ly/1SvkY2m">http://bit.ly/1SvkY2m</a>  PGP: <a href="http://bit.ly/1XcWkJb">http://bit.ly/1XcWkJb</a>  </p>
+<hr />
+<h3 id="lam-thuy-vo"><a name="user-content-lam-thuy-vo" href="#lam-thuy-vo" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Lam Thuy Vo</h3>
+<h4 id="the-good-and-bad-of-newsroom-on-boarding-processes-and-how-can-we-make-them-better_1"><a href="http://srccon.org/sessions/#proposal-317007">The good and bad of newsroom on-boarding processes (and how can we make them better)</a></h4>
+<p><a href="https://twitter.com/lamthuyvo"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/lam_thuy_vo.jpg" /></a></p>
+<p><a href="https://twitter.com/lamthuyvo">@lamthuyvo</a>, New York, NY</p>
+<p>website: <a href="http://www.lamthuyvo.com"><a href="http://www.lamthuyvo.com"><a href="http://www.lamthuyvo.com">http://www.lamthuyvo.com</a></a></a> </p>
+<p>Data journalist/swiss army knife @WSJ Teach @cunyjschool. Previously @AJAM, @PlanetMoney. German-born Vietnamese nomad who makes web things | <a href="mailto:info@lamivo.com">info@lamivo.com</a> </p>
+<hr />
+<h3 id="kaeti-hinck"><a name="user-content-kaeti-hinck" href="#kaeti-hinck" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Kaeti Hinck</h3>
+<h4 id="they-dont-want-you-to-lead-major-keys-to-success-as-an-underrepresented-manager"><a href="http://srccon.org/sessions/#proposal-318308">They don’t want you to lead: Major keys to success as an underrepresented manager</a></h4>
+<p><a href="https://twitter.com/kaeti"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/kaeti_hinck.jpg" /></a></p>
+<p><a href="https://twitter.com/kaeti">@kaeti</a>, Washington, DC</p>
+<p>website: <a href="https://www.washingtonpost.com/people/kaeti-hinck"><a href="https://www.washingtonpost.com/people/kaeti-hinck"><a href="https://www.washingtonpost.com/people/kaeti-hinck">https://www.washingtonpost.com/people/kaeti-hinck</a></a></a> </p>
+<p>Data editor with @postgraphics. By way of @INNnerds, @MinnData. I dig kind people, useful design, and breakfast sandwiches. Minnesotan in all the best ways. </p>
+<hr />
+<h3 id="emily-chow"><a name="user-content-emily-chow" href="#emily-chow" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Emily Chow</h3>
+<h4 id="they-dont-want-you-to-lead-major-keys-to-success-as-an-underrepresented-manager_1"><a href="http://srccon.org/sessions/#proposal-318308">They don’t want you to lead: Major keys to success as an underrepresented manager</a></h4>
+<p><a href="https://twitter.com/eschow"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/emily_chow.jpg" /></a></p>
+<p><a href="https://twitter.com/eschow">@eschow</a>, Washington, D.C.</p>
+<p>website: <a href="http://eschow.com"><a href="http://eschow.com"><a href="http://eschow.com">http://eschow.com</a></a></a> </p>
+<p>Designer, developer, visual storyteller. Also, knitter, baker and @citydogsrescue photographer. Find me outdoors. </p>
+<hr />
+<h3 id="julia-wolfe"><a name="user-content-julia-wolfe" href="#julia-wolfe" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Julia Wolfe</h3>
+<h4 id="threat-modeling-for-code-when-is-bad-code-the-better-solution"><a href="http://srccon.org/sessions/#proposal-318449">Threat Modeling for Code: When is Bad Code the Better Solution?</a></h4>
+<p><a href="https://twitter.com/juruwolfe"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/julia_wolfe.jpg" /></a></p>
+<p><a href="https://twitter.com/juruwolfe">@juruwolfe</a>, New York, NY</p>
+<p>website: <a href="http://juruwolfe.com"><a href="http://juruwolfe.com"><a href="http://juruwolfe.com">http://juruwolfe.com</a></a></a> </p>
+<p>News app developer @WSJ covering the election. Almost Canadian. Say hi: <a href="mailto:julia.wolfe@wsj.com">julia.wolfe@wsj.com</a> </p>
+<hr />
+<h3 id="ivar-vong"><a name="user-content-ivar-vong" href="#ivar-vong" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Ivar Vong</h3>
+<h4 id="threat-modeling-for-code-when-is-bad-code-the-better-solution_1"><a href="http://srccon.org/sessions/#proposal-318449">Threat Modeling for Code: When is Bad Code the Better Solution?</a></h4>
+<p><a href="https://twitter.com/ivarvong"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/ivar_vong.jpeg" /></a></p>
+<p><a href="https://twitter.com/ivarvong">@ivarvong</a>, NYC</p>
+<p>website: <a href="https://instagram.com/ivarvong"><a href="https://instagram.com/ivarvong"><a href="https://instagram.com/ivarvong">https://instagram.com/ivarvong</a></a></a> </p>
+<p>tech/product at the @marshallproj. retired quadcopter pilot </p>
+<hr />
+<h3 id="joe-germuska"><a name="user-content-joe-germuska" href="#joe-germuska" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Joe Germuska</h3>
+<h4 id="through-an-iphone-darkly-media-and-networks-through-the-lens-of-science-fiction"><a href="http://srccon.org/sessions/#proposal-317973">Through an iPhone Darkly: Media and Networks through the lens of Science Fiction</a></h4>
+<p><a href="https://twitter.com/JoeGermuska"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/joe_germuska.png" /></a></p>
+<p><a href="https://twitter.com/JoeGermuska">@JoeGermuska</a>, Chicago, IL</p>
+<p>website: <a href="http://blog.germuska.com"><a href="http://blog.germuska.com"><a href="http://blog.germuska.com">http://blog.germuska.com</a></a></a> </p>
+<p>Chief Nerd @KnightLab • Project lead @CensusReporter • Host, Conference of the Birds, WNUR-FM •  Data Journalism • Civic Tech • Open Source </p>
+<hr />
+<h3 id="juan-elosua"><a name="user-content-juan-elosua" href="#juan-elosua" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Juan Elosua</h3>
+<h4 id="tips-and-tricks-lets-share-our-small-time-savers"><a href="http://srccon.org/sessions/#proposal-318473">Tips and tricks: let&rsquo;s share our small time savers</a></h4>
+<p><a href="https://twitter.com/jjelosua"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/juan_elosua.jpeg" /></a></p>
+<p><a href="https://twitter.com/jjelosua">@jjelosua</a>, Vigo, Spain</p>
+<p>website: <a href="http://www.juanelosua.com"><a href="http://www.juanelosua.com"><a href="http://www.juanelosua.com">http://www.juanelosua.com</a></a></a> </p>
+<p>Soon to be news apps developer @nprviz. Former Knight-Mozilla fellow @LNdata. Open Data enthusiast. </p>
+<hr />
+<h3 id="miguel-fiandor"><a name="user-content-miguel-fiandor" href="#miguel-fiandor" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Miguel Fiandor</h3>
+<h4 id="tools-to-search-millions-of-documents-remotely-and-across-borders"><a href="http://srccon.org/sessions/#proposal-318531">Tools to search millions of documents remotely and across borders</a></h4>
+<p><a href="https://twitter.com/mfiandor"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/miguel_fiandor.jpg" /></a></p>
+<p><a href="https://twitter.com/mfiandor">@mfiandor</a>, Madrid</p>
+<p>website: <a href="http://transparenciadecuentaspublicas.es"><a href="http://transparenciadecuentaspublicas.es"><a href="http://transparenciadecuentaspublicas.es">http://transparenciadecuentaspublicas.es</a></a></a> </p>
+<p>Computer Engineer and Renewable Energy master. Interested in sustainability, open data, sports, energy, and traveling. </p>
+<hr />
+<h3 id="pamela-assogba"><a name="user-content-pamela-assogba" href="#pamela-assogba" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Pamela Assogba</h3>
+<h4 id="true-life-i-work-remotely"><a href="http://srccon.org/sessions/#proposal-318047">True Life: I Work Remotely</a></h4>
+<p><a href="https://twitter.com/pam_yam"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/pamela_assogba.jpg" /></a></p>
+<p><a href="https://twitter.com/pam_yam">@pam_yam</a>, DC area</p>
+<p>website: <a href="None">None</a> </p>
+<p>Coder @VoxProduct - Student - Teacher - Fashion Lover - Daydreamer - West Africaner (Benin - Togo - Senegal) </p>
+<hr />
+<h3 id="kavya-sukumar"><a name="user-content-kavya-sukumar" href="#kavya-sukumar" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Kavya Sukumar</h3>
+<h4 id="sessions_8"><a name="user-content-sessions_8" href="#sessions_8" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>session(s):</h4>
+<p><a href="https://twitter.com/kavyaSukumar"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/kavya_sukumar.jpg" /></a></p>
+<p><a href="https://twitter.com/kavyaSukumar">@kavyaSukumar</a>, Seattle, WA</p>
+<p>website: <a href="http://kavyasukumar.com"><a href="http://kavyasukumar.com"><a href="http://kavyasukumar.com">http://kavyasukumar.com</a></a></a> </p>
+<p>Developer with a journalism habit | <br />
+Tinkers with storytelling tools  @voxproduct | <br />
+Past: @opennews fellow, @pbpost, @medillschool, @microsoft, and @trichynit </p>
+<hr />
+<h3 id="dan-zajdband"><a name="user-content-dan-zajdband" href="#dan-zajdband" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Dan Zajdband</h3>
+<h4 id="webvr-for-the-rest-of-us"><a href="http://srccon.org/sessions/#proposal-317026">WebVR for the rest of us</a></h4>
+<p><a href="https://twitter.com/impronunciable"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/dan_zajdband.jpg" /></a></p>
+<p><a href="https://twitter.com/impronunciable">@impronunciable</a>, New York, NY</p>
+<p>website: <a href="http://zajdband.com"><a href="http://zajdband.com"><a href="http://zajdband.com">http://zajdband.com</a></a></a> </p>
+<p>Psiconauta del inconsciente. 2016 Knight-Mozilla fellow at @coralproject / @nytimes / @washingtonpost </p>
+<hr />
+<h3 id="amyjo-brown"><a name="user-content-amyjo-brown" href="#amyjo-brown" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>AmyJo Brown</h3>
+<h4 id="what-ideas-can-we-borrow-from-the-design-world-to-solve-news-design-problems"><a href="http://srccon.org/sessions/#proposal-318001">What ideas can we borrow from the design world to solve news design problems?</a></h4>
+<p><a href="https://twitter.com/amyjo_brown"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/amyjo_brown.jpg" /></a></p>
+<p><a href="https://twitter.com/amyjo_brown">@amyjo_brown</a>, Pittsburgh</p>
+<p>website: <a href="http://www.amyjobrown.com"><a href="http://www.amyjobrown.com"><a href="http://www.amyjobrown.com">http://www.amyjobrown.com</a></a></a> </p>
+<p>Reporter &amp; editor. Work a lot with data, information design. Coffee addict. Urban gardener. Buried in history and public records. I code a little. I bake bread. </p>
+<hr />
+<h3 id="jennifer-thibault"><a name="user-content-jennifer-thibault" href="#jennifer-thibault" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Jennifer Thibault</h3>
+<h4 id="what-ideas-can-we-borrow-from-the-design-world-to-solve-news-design-problems_1"><a href="http://srccon.org/sessions/#proposal-318001">What ideas can we borrow from the design world to solve news design problems?</a></h4>
+<p><a href="https://twitter.com/jlthibault"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/jennifer_thibault.jpg" /></a></p>
+<p><a href="https://twitter.com/jlthibault">@jlthibault</a>, New York, NY</p>
+<p>website: <a href="http://jenniferthibault.com"><a href="http://jenniferthibault.com"><a href="http://jenniferthibault.com">http://jenniferthibault.com</a></a></a> </p>
+<p>Designing for The People, with @18F Better &lsquo;grammer than twitterer: <a href="http://instagram.com/jlthibault">http://instagram.com/jlthibault</a>  </p>
+<hr />
+<h3 id="evie-liu"><a name="user-content-evie-liu" href="#evie-liu" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Evie Liu</h3>
+<h4 id="when-is-big-data-too-big-when-is-less-more"><a href="http://srccon.org/sessions/#proposal-318644">When is big data too big? When is less more?</a></h4>
+<p><a href="https://twitter.com/Evie_xing"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/evie_liu.jpeg" /></a></p>
+<p><a href="https://twitter.com/Evie_xing">@Evie_xing</a>, Manhattan, NY</p>
+<p>website: <a href="None">None</a> </p>
+<p>Data journalist @NYDailyNews, former @KPCC @USCAnnenberg. Storyteller, data miner, web developer. LA my home, NY my playground. </p>
+<hr />
+<h3 id="stevesuo"><a name="user-content-stevesuo" href="#stevesuo" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>stevesuo</h3>
+<h4 id="when-is-big-data-too-big-when-is-less-more_1"><a href="http://srccon.org/sessions/#proposal-318644">When is big data too big? When is less more?</a></h4>
+<p><a href="https://twitter.com/stevesuo"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/stevesuo.jpg" /></a></p>
+<p><a href="https://twitter.com/stevesuo">@stevesuo</a>, Portland, OR, USA</p>
+<p>website: <a href="http://www.oregonlive.com/data"><a href="http://www.oregonlive.com/data"><a href="http://www.oregonlive.com/data">http://www.oregonlive.com/data</a></a></a> </p>
+<p>Journalist, dad, nerd. Editor for investigative and data-driven enterprise @Oregonian. </p>
+<hr />
+<h3 id="chris-canipe"><a name="user-content-chris-canipe" href="#chris-canipe" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Chris Canipe</h3>
+<h4 id="where-are-the-midsize-metro-news-developers"><a href="http://srccon.org/sessions/#proposal-318313">Where Are the Midsize Metro News Developers</a></h4>
+<p><a href="https://twitter.com/ccanipe"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/chris_canipe.jpg" /></a></p>
+<p><a href="https://twitter.com/ccanipe">@ccanipe</a>, St. Louis, Missouri</p>
+<p>website: <a href="http://www.chriscanipe.com"><a href="http://www.chriscanipe.com"><a href="http://www.chriscanipe.com">http://www.chriscanipe.com</a></a></a> </p>
+<p>I make web things for The Wall Street Journal. I also teach a news apps class at Mizzou and play in a band called Malone. &hellip; &hellip; &hellip; I&rsquo;m okay. You? Cool cool. </p>
+<hr />
+<h3 id="jon-mcclure"><a name="user-content-jon-mcclure" href="#jon-mcclure" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Jon McClure</h3>
+<h4 id="where-are-the-midsize-metro-news-developers_1"><a href="http://srccon.org/sessions/#proposal-318313">Where Are the Midsize Metro News Developers</a></h4>
+<p><a href="https://twitter.com/JonRMcClure"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/jon_mcclure.jpeg" /></a></p>
+<p><a href="https://twitter.com/JonRMcClure">@JonRMcClure</a>, Dallas, TX</p>
+<p>website: <a href="http://dallasnews.com"><a href="http://dallasnews.com"><a href="http://dallasnews.com">http://dallasnews.com</a></a></a> </p>
+<p>Data &amp; news apps editor at @dallasnews. Formerly, hanger-on @TheDetailTV. Kann Deutsch beim Trinken. Kansas City native. </p>
+<hr />
+<h3 id="millie-tran"><a name="user-content-millie-tran" href="#millie-tran" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Millie Tran</h3>
+<h4 id="sessions_9"><a name="user-content-sessions_9" href="#sessions_9" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>session(s):</h4>
+<p><a href="https://twitter.com/millie"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/millie_tran.jpg" /></a></p>
+<p><a href="https://twitter.com/millie">@millie</a>, <a href="mailto:millie.tran@buzzfeed.com">millie.tran@buzzfeed.com</a></p>
+<p>website: <a href="None">None</a> </p>
+<p>director of global adaptation @buzzfeed  likes to run toward wicked problems, build things, and systems. ‘there must be a better way’ — usually. </p>
+<hr />
+<h3 id="stacy-marie-ishmael"><a name="user-content-stacy-marie-ishmael" href="#stacy-marie-ishmael" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>stacy-marie ishmael</h3>
+<h4 id="why-your-bot-is-nothing-without-a-human"><a href="http://srccon.org/sessions/#proposal-318651">Why your bot is nothing without a human</a></h4>
+<p><a href="https://twitter.com/s_m_i"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/stacymarie_ishmael.jpg" /></a></p>
+<p><a href="https://twitter.com/s_m_i">@s_m_i</a>, </p>
+<p>website: <a href="None">None</a> </p>
+<h1 id="teamnewsapp-megateam-buzzfeednews-ftalumni-tiltalumni-ftalpha-villain-percolate-og-trinidadian-at-large-smibuzzfeedcom-i-will-never-be-satisfied"><a name="user-content-teamnewsapp-megateam-buzzfeednews-ftalumni-tiltalumni-ftalpha-villain-percolate-og-trinidadian-at-large-smibuzzfeedcom-i-will-never-be-satisfied" href="#teamnewsapp-megateam-buzzfeednews-ftalumni-tiltalumni-ftalpha-villain-percolate-og-trinidadian-at-large-smibuzzfeedcom-i-will-never-be-satisfied" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>teamnewsapp #megateam @BuzzFeedNews #FTalumni #tiltalumni @ftalpha-villain @percolate-OG Trinidadian-at-large <a href="mailto:smi@buzzfeed.com">smi@buzzfeed.com</a>. I will never be satisfied.</h1>
+<hr />
+<h3 id="martin-mcclellan"><a name="user-content-martin-mcclellan" href="#martin-mcclellan" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Martin McClellan</h3>
+<h4 id="working-at-the-pace-of-breaking-news"><a href="http://srccon.org/sessions/#proposal-318338">Working at the pace of Breaking News</a></h4>
+<p><a href="https://twitter.com/hellbox"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/martin_mcclellan.jpg" /></a></p>
+<p><a href="https://twitter.com/hellbox">@hellbox</a>, Seattle</p>
+<p>website: <a href="http://martinmcclellan.com/"><a href="http://martinmcclellan.com/"><a href="http://martinmcclellan.com/">http://martinmcclellan.com/</a></a></a> </p>
+<p>Novelist, critic, and designer. Co-founder of @seattlereviewof, author of @cal4oclock, Senior UX designer for @breakingnews. </p>
+<hr />
+<h3 id="tiff-fehr"><a name="user-content-tiff-fehr" href="#tiff-fehr" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Tiff Fehr</h3>
+<h4 id="working-at-the-pace-of-breaking-news_1"><a href="http://srccon.org/sessions/#proposal-318338">Working at the pace of Breaking News</a></h4>
+<p><a href="https://twitter.com/tiffehr"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/tiff_fehr.png" /></a></p>
+<p><a href="https://twitter.com/tiffehr">@tiffehr</a>, Greater New York</p>
+<p>website: <a href="http://tiffehr.com"><a href="http://tiffehr.com"><a href="http://tiffehr.com">http://tiffehr.com</a></a></a> </p>
+<p>The Inimitable Tiff.  Seattle-raised.<br />
+Data journalist/dev/asst. editor for @nytimes &amp; @nytinteractive.<br />
+Probably following you via matryoshka-like Lists. </p>
+<hr />
+<h3 id="david-yanofsky"><a name="user-content-david-yanofsky" href="#david-yanofsky" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>David Yanofsky</h3>
+<h4 id="you-want-to-teach-a-reporter-to-do-what"><a href="http://srccon.org/sessions/#proposal-315520">You want to teach a reporter to do what‽</a></h4>
+<p><a href="https://twitter.com/YAN0"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/david_yanofsky.jpg" /></a></p>
+<p><a href="https://twitter.com/YAN0">@YAN0</a>, Palo Alto</p>
+<p>website: <a href="http://yanofsky.info"><a href="http://yanofsky.info"><a href="http://yanofsky.info">http://yanofsky.info</a></a></a> </p>
+<p>@qz | @quartzthings | Chartbuilder | @BloombrgNewsish | PGP: 159B 5596 7E1F D37B C966 773A A23B 423C FEDF C341 <a href="https://keybase.io/yanofsky">https://keybase.io/yanofsky</a>  </p>
+<hr />
+<h3 id="sarah-squire"><a name="user-content-sarah-squire" href="#sarah-squire" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Sarah Squire</h3>
+<h4 id="you-want-to-teach-a-reporter-to-do-what_1"><a href="http://srccon.org/sessions/#proposal-315520">You want to teach a reporter to do what‽</a></h4>
+<p><a href="https://twitter.com/sarahjsquire"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/sarah_squire.jpg" /></a></p>
+<p><a href="https://twitter.com/sarahjsquire">@sarahjsquire</a>, New York, NY</p>
+<p>website: <a href="http://Instagram.com/lolathescottie"><a href="http://Instagram.com/lolathescottie"><a href="http://Instagram.com/lolathescottie">http://Instagram.com/lolathescottie</a></a></a> </p>
+<p>Executive editor for data/graphics/viz at Dow Jones Media • PR for @lolathescottie • @michigandaily • Free food hunter • Currently hiring: <a href="mailto:sarah.squire@wsj.com">sarah.squire@wsj.com</a> </p>
+<hr />
+<h3 id="ryan-murphy"><a name="user-content-ryan-murphy" href="#ryan-murphy" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Ryan Murphy</h3>
+<h4 id="youre-the-reason-my-name-is-on-google-the-ethics-of-publishing-public-data"><a href="http://srccon.org/sessions/#proposal-318629">You&rsquo;re The Reason My Name Is On Google: The Ethics Of Publishing Public Data</a></h4>
+<p><a href="https://twitter.com/rdmurphy"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/ryan_murphy.jpg" /></a></p>
+<p><a href="https://twitter.com/rdmurphy">@rdmurphy</a>, Austin, TX</p>
+<p>website: <a href="http://rdmurphy.org/"><a href="http://rdmurphy.org/"><a href="http://rdmurphy.org/">http://rdmurphy.org/</a></a></a> </p>
+<p>Reporter, @newsapps team lead + senior designer/developer with @TexasTribune. Campaign finance, data visualization, web performance and interactive design.  </p>
+<hr />
+<h3 id="gideon-goldberg"><a name="user-content-gideon-goldberg" href="#gideon-goldberg" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Gideon Goldberg</h3>
+<h4 id="sessions_10"><a name="user-content-sessions_10" href="#sessions_10" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>session(s):</h4>
+<p><a href="https://twitter.com/GidsG"><img alt="" src="/Users/skelly/projects/lrs-bin/srccon_2016/headshots/gideon_goldberg.jpg" /></a></p>
+<p><a href="https://twitter.com/GidsG">@GidsG</a>, London</p>
+<p>website: <a href="http://gidsgoldberg.com"><a href="http://gidsgoldberg.com"><a href="http://gidsgoldberg.com">http://gidsgoldberg.com</a></a></a> </p>
+<p>recovering former collector of tech swag. Software Engineer @guardian </p>
+<hr /></article></body></html>
